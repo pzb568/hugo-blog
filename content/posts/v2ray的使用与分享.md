@@ -1,0 +1,99 @@
+---
+title: v2ray的使用方法与节点分享
+tags:
+    - 翻墙
+    - 谷歌
+    - 节点分享
+    - v2rayNG
+    - Surfboard
+    - Pharos 
+    - v2rayN
+categories:
+    - 网络应用
+comments: true
+top: 1
+abbrlink: 3be63484
+date: 2018-11-09 14:13:28
+---
+
+&emsp;&emsp; v2ray相比ss系列提高了安全性，减少被**防火墙**封锁的风险，同时可以使用ss的节点(但是不支持SSR节点)。 想了解详细的安装说明信息可以在去[官方网站](www.v2ray.com)或者去github [v2ray](https://github.com/v2ray/v2ray-core)开源项目的教程说明。
+
+## 软件下载
+### 安卓系统
+1. v2rayNG（推荐使用）
++ 下载地址
+https://github.com/2dust/v2rayNG/releases
+-  导入下面节点
+![](https://ftp.bmp.ovh/imgs/2019/08/0027ef05f989a975.jpg)
+![](https://ftp.bmp.ovh/imgs/2019/08/0027ef05f989a975.jpg)
+
+
+2. Surfboard （强烈推荐 ）
+>推荐使用速度非常快，可以扫描二维码和配合v2rayNG节点导出剪切板然后到Surfboard点击加号选择使用连接下载或添加订阅 保存即可；youtube上有人评测Surfboard是最快的，想了解详细情况点击下面网址<https://jsproxy.pzb.workers.dev/-----https://m.youtube.com/watch?v=oG8y-6s6Aek>
+3. Pharos Pro (支持最全面)
+>[Pharos Pro](https://pi-pi.gitbook.io/pharos-pro/) 支持Android和iOS，支持 Trojan、V2ray-Core、SS、SS+Simple obfs、SSR、socks5、Https协议。目前还在测试中。详细情况可以点击前面链接访问开发者的文档。
+下面附上下载地址[Pharos Pro](https://tg.pzb.workers.dev/)
+4. Clash
+Clash 是一个使用 Go 语言编写、基于规则的跨平台代理核心程序。Clash目前有Windows、MacOS、Android等多个平台的GUI程序，支持SS/V2ray/Trojan多种协议，功能强大。
+> 支持把所有的节点全部托管 ，然后按照速度自动选择连接
+1. 下载
+官网下载 ：<https://github.com/Kr328/ClashForAndroid/releases>
+2. 制作托管链接
+https://bianyuan.xyz/
+3. 复制下面的节点
+4. 粘贴到上面网页
+5. 点击生成链接并复制
+6. 粘贴到clash配置新配置URL导入
+7. 点击启动开始使用
+### WIN系统
+1. 下载下面两个压缩包
+https://github.com/v2ray/v2ray-core/releases
+https://github.com/2dust/v2rayN/releases
+2. 把v2rayN.exe 及语言包放入v2ray基础文件解压包里面
+<img src = 'https://i.bmp.ovh/imgs/2019/02/59c05c1db8f6584b.jpg' />
+3. 双击启动 v2rayN 并创建快捷方式。
+
+### Linux系统
+
+使用Linux系统的都是大神级的，安装和使用都不在话下，这里就不出教程了。
+>推荐使用Qv2ray详细说明请访问github
+### 苹果系统
+>由于苹果系统相对封闭，不明国情原因，国区几乎所有软件全部下架；但是还是可以通过其他区域帐号下载个购买。详细情况可以看 https://pi-pi.gitbook.io/pharos-pro/zhi-shi-ku/ru-he-zhu-ce-bing-shi-yong-mei-qu-apple-id 教程及下载地址，以上地址是Pharos Pro for iOS官方教程。
+
+<escape><!-- more --></escape>
+
+## 节点分享
+
+以下节点我会不定期更新，请注意更新日期
+
+```
+vmess://eyJhZGQiOiIxLjEuMS43MiIsImFpZCI6IjAiLCJob3N0IjoiYXloby5wemIud29ya2Vycy5kZXYiLCJpZCI6ImE1Nzg0ODY0LTNhYTQtMTFlYi1iMzFlLTViMDM0OGFiNTRlZSIsIm5ldCI6IndzIiwicGF0aCI6Ii8yM3hHZGpscS8iLCJwb3J0IjoiNDQzIiwicHMiOiJheWhvLnB6Yi53b3JrZXJzLmRldiIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMjM0NTZANDUuMTQ4LjguMTcxOjg4Mzg=#https%3A%2F%2Fgtv.org
+ss://YWVzLTI1Ni1nY206eDIzWjRMR2tHRGtUaFo5S2F6NERVUlFwQDIxMi4xMDIuNDIuMTk0OjQwMDkz#%E4%BA%8C%E7%88%B7%E5%85%8D%E8%B4%B9%E7%BF%BB%E5%A2%99%E7%BD%91+https%3A%2F%2F5414.ml
+ss://YWVzLTI1Ni1nY206eDIzWjRMR2tHRGtUaFo5S2F6NERVUlFwQDg0LjE3LjU3LjczOjQwMDkz#%E4%BA%8C%E7%88%B7%E5%85%8D%E8%B4%B9%E7%BF%BB%E5%A2%99%E7%BD%91+https%3A%2F%2F5414.ml
+ss://YWVzLTI1Ni1nY206eDIzWjRMR2tHRGtUaFo5S2F6NERVUlFwQDg0LjE3LjU3LjY2OjQwMDkz#%E4%BA%8C%E7%88%B7%E5%85%8D%E8%B4%B9%E7%BF%BB%E5%A2%99%E7%BD%91+https%3A%2F%2F5414.ml
+ss://YWVzLTI1Ni1nY206eDIzWjRMR2tHRGtUaFo5S2F6NERVUlFwQDg0LjE3LjU3LjE0ODo0MDA5Mw==#%E4%BA%8C%E7%88%B7%E5%85%8D%E8%B4%B9%E7%BF%BB%E5%A2%99%E7%BD%91+https%3A%2F%2F5414.ml
+ss://YWVzLTI1Ni1nY206eDIzWjRMR2tHRGtUaFo5S2F6NERVUlFwQDIxMi4xMDIuNDIuMjA0OjQwMDkz#%E4%BA%8C%E7%88%B7%E5%85%8D%E8%B4%B9%E7%BF%BB%E5%A2%99%E7%BD%91+https%3A%2F%2F5414.ml
+ss://YWVzLTI1Ni1nY206eDIzWjRMR2tHRGtUaFo5S2F6NERVUlFwQDg0LjE3LjM3LjE1ODo0MDA5Mw==#%E4%BA%8C%E7%88%B7%E5%85%8D%E8%B4%B9%E7%BF%BB%E5%A2%99%E7%BD%91+https%3A%2F%2F5414.ml
+ss://YWVzLTI1Ni1nY206eDIzWjRMR2tHRGtUaFo5S2F6NERVUlFwQDIxMi4xMDIuNDIuMjA5OjQwMDkz#%E4%BA%8C%E7%88%B7%E5%85%8D%E8%B4%B9%E7%BF%BB%E5%A2%99%E7%BD%91+https%3A%2F%2F5414.ml
+vmess://eyJhZGQiOiI2Ni4xODEuNDUuMTY5IiwiYWlkIjoiMiIsImhvc3QiOiIiLCJpZCI6IjQ3NWU3MTEzLWEzNGMtNDU1YS1lMmE0LTFlYzhlYzkzMDEwOCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiNTIzMzMiLCJwcyI6Il8wMSB8NDMuMjVNYiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+vmess://eyJhZGQiOiIxMDcuMTc1LjIxLjE1OCIsImFpZCI6IjIiLCJob3N0IjoiIiwiaWQiOiI0NzVlNzExMy1hMzRjLTQ1NWEtZTJhNC0xZWM4ZWM5MzAxMDgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6IjUyMzMzIiwicHMiOiJfMDIgfDE2MS4wMU1iIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
+vmess://eyJhZGQiOiI3NS4yLjMxLjE2NiIsImFpZCI6IjY0IiwiaG9zdCI6IiIsImlkIjoiNDEwYTQzNDEtMTg3Mi00MTA5LWVjYmEtZGE4MzAyZGMzZDcwIiwibmV0Ijoid3MiLCJwYXRoIjoiL3YycmF5IiwicG9ydCI6IjQ4NjA3IiwicHMiOiJfMDMgfDE5Ljg2TWIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
+vmess://eyJhZGQiOiIxMDMuMjE5LjE1NC4xNzAiLCJhaWQiOiIyIiwiaG9zdCI6IiIsImlkIjoiNDc1ZTcxMTMtYTM0Yy00NTVhLWUyYTQtMWVjOGVjOTMwMTA4IiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiI1MjMzMyIsInBzIjoiXzA1IHwzMC43OU1iIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
+vmess://eyJhZGQiOiIxMDcuMTc1LjAuMjAxIiwiYWlkIjoiMiIsImhvc3QiOiIiLCJpZCI6IjQ3NWU3MTEzLWEzNGMtNDU1YS1lMmE0LTFlYzhlYzkzMDEwOCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiNTIzMzMiLCJwcyI6Il8wNiB8NzMuNDBNYiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+vmess://eyJhZGQiOiJoa2FnYS45OWlwbGMueHl6IiwiYWlkIjoiMSIsImhvc3QiOiIiLCJpZCI6Ijc2MmY1MGY3LTIyNjQtMzUxMC05ZmJhLTZkM2UzOWFjNjIzZSIsIm5ldCI6IndzIiwicGF0aCI6Ii92MiIsInBvcnQiOiIyMDAwMCIsInBzIjoiXzA4IHwgMi44Nk1iIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
+vmess://eyJhZGQiOiIxNTQuODQuMS4xNDAiLCJhaWQiOiI2NCIsImhvc3QiOiIiLCJpZCI6IjJhNzM0OWQ2LTk5NGEtNDM0Yi05NTg5LWMwMDIwNjg1ZTUyOCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwicG9ydCI6IjU0NjcxIiwicHMiOiJOTC3kuozniLflhY3otLnnv7vlopnnvZEgaHR0cHM6Ly81NDE0Lm1sIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
+vmess://eyJhZGQiOiI4LjIxMC4zLjEzMyIsImFpZCI6IjIzMyIsImhvc3QiOiIiLCJpZCI6ImMyMTgxMTg0LWU0ODctNGIzNy1hMDI5LWY2MWQ5MDUyMzk1MCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwicG9ydCI6IjU2NjQ3IiwicHMiOiJTRy3kuozniLflhY3otLnnv7vlopnnvZEgaHR0cHM6Ly81NDE0Lm1sIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
+vmess://eyJhZGQiOiIxLjAuMC4xIiwiYWlkIjoiMiIsImhvc3QiOiJ3LmJhaWR1MmIubWwiLCJpZCI6ImMyZmYyOTdlLTAzZWEtNGQ0My1hZjMyLTc5NTNhNGZiYjYzYyIsIm5ldCI6IndzIiwicGF0aCI6Ii8xZGE0MWQ3LyIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh6bwn4e6IEFVXzIzNCIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+vmess://eyJhZGQiOiIxLjAuMC4xIiwiYWlkIjoiMiIsImhvc3QiOiJ3LmJhaWR1MmIubWwiLCJpZCI6ImMyZmYyOTdlLTAzZWEtNGQ0My1hZjMyLTc5NTNhNGZiYjYzYyIsIm5ldCI6IndzIiwicGF0aCI6Ii8xZGE0MWQ3LyIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh6bwn4e6IEFVXzIzOCB8NTkuODhNYiIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+vmess://eyJhZGQiOiIxLjEuMS4xMDAiLCJhaWQiOiIyIiwiaG9zdCI6InZpci5sYW9iYW42NjYueHl6IiwiaWQiOiI0ZjY3MmFiNi0yNWUzLTQ5ZTgtOTUxYS1kODdiMWZhNzU0NjciLCJuZXQiOiJ3cyIsInBhdGgiOiIvY2UwNC8iLCJwb3J0IjoiNDQzIiwicHMiOiLwn4em8J+HuiBBVV8yNzIgfDY0LjU5TWIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
+vmess://eyJhZGQiOiIxLjAuMC4xIiwiYWlkIjoiMiIsImhvc3QiOiJ3LmJhaWR1MmIubWwiLCJpZCI6ImMyZmYyOTdlLTAzZWEtNGQ0My1hZjMyLTc5NTNhNGZiYjYzYyIsIm5ldCI6IndzIiwicGF0aCI6Ii8xZGE0MWQ3LyIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh6bwn4e6IEFVXzI4MCB8MTM3LjQwTWIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
+vmess://eyJhZGQiOiJ2Mi0wNC5zc3JzdWIub25lIiwiYWlkIjoiMzIiLCJob3N0IjoiIiwiaWQiOiIyOGFkYmVhOC03YzBkLTQwNzQtODE1Zi0xMGRlNjU3NGZiMmEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HqPCfh6YgQ0FfNTE5IHwgMi4wNk1iIiwidGxzIjoidGxzIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
+vmess://eyJhZGQiOiIxMjAuMjMyLjQzLjE5NSIsImFpZCI6IjIiLCJob3N0IjoiczgueXQwMDQueHl6IiwiaWQiOiI3YWM4ZjNmNy05MWQ2LTM1ODYtYmQxYi1hMDllM2Y1MzMwMzQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdjJyYXkiLCJwb3J0IjoiMTExMTYiLCJwcyI6IvCfh6jwn4ezIENOXzQ0MSIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+vmess://eyJhZGQiOiIxMjAuMjMyLjQzLjE5NSIsImFpZCI6IjIiLCJob3N0IjoiczgueXQwMDQueHl6IiwiaWQiOiI3YWM4ZjNmNy05MWQ2LTM1ODYtYmQxYi1hMDllM2Y1MzMwMzQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdjJyYXkiLCJwb3J0IjoiMTExMTYiLCJwcyI6IvCfh6jwn4ezIENOXzQ3OCB8MTEuNDBNYiIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+vmess://eyJhZGQiOiIxMjAuMjMyLjQzLjE5NSIsImFpZCI6IjIiLCJob3N0IjoiczgueXQwMDQueHl6IiwiaWQiOiI3YWM4ZjNmNy05MWQ2LTM1ODYtYmQxYi1hMDllM2Y1MzMwMzQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdjJyYXkiLCJwb3J0IjoiMTExMTYiLCJwcyI6IvCfh6jwn4ezIENOXzU4NyIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+vmess://eyJhZGQiOiJ1cy4xOTkzMDEueHl6IiwiYWlkIjoiMTYiLCJob3N0IjoidXMuMTk5MzAxLnh5eiIsImlkIjoiZmQwMDkyN2EtYjBjMi00NjI5LWFlZjctZDlmZjE1YTlkNzIyIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dlYnNvY2tldCIsInBvcnQiOiIzMDAxMCIsInBzIjoi8J+HqPCfh7MgQ05fNTg5IHwgNC44ME1iIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
+vmess://eyJhZGQiOiIxMjQuMjQ0LjE4Ni4xMjEiLCJhaWQiOiIyIiwiaG9zdCI6ImNlbnRvcy5mdWNoYXUueHl6IiwiaWQiOiJiNzA3YzllNi0zYTYxLTRmMGItODg0NC05YTM5OGNmYWRmYjciLCJuZXQiOiJ3cyIsInBhdGgiOiIvYWRkNzYzMTQvIiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HrfCfh7AgSEtfMTQ1NyIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+vmess://eyJhZGQiOiIxMzIuMTQ1LjExNS4xMjUiLCJhaWQiOiIyIiwiaG9zdCI6ImouMTk5MzAxLnh5eiIsImlkIjoiNmIzODYyN2ItYTA0NS00ZDc5LTk1YzgtZTUwNTA3M2RkMTJkIiwibmV0Ijoid3MiLCJwYXRoIjoiLzAzNjExMjUvIiwicG9ydCI6IjQ0MyIsInBzIjoi8J+Hr/Cfh7UgSlBfMTUwNyIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+vmess://eyJhZGQiOiIxNzIuMTA0LjgxLjkyIiwiYWlkIjoiMiIsImhvc3QiOiIiLCJpZCI6IjU1Yjk0OWIyLTQyNDAtNDk4NS04ZDU0LWQxZjA4M2ZmNWZjNyIs
+```
