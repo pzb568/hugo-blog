@@ -2,7 +2,7 @@
 title: "搭建Hugo站使用netlify动部署网站"
 date: 2022-09-29T14:17:53Z
 draft: false
-tags = ["Hugo,theme,网站搭建,netlify"]
+
 ---
 
 ![](https://raw.githubusercontent.com/gohugoio/gohugoioTheme/master/static/images/hugo-logo-wide.svg?sanitize=true)
