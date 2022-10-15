@@ -2,8 +2,13 @@
 title: "搭建Hugo站使用netlify动部署网站"
 date: 2022-09-29T14:17:53Z
 draft: false
+categories = ["软件应用"]
+tags = ["Hugo,theme,网站搭建,netlify"]
 ---
 
+![](https://raw.githubusercontent.com/gohugoio/gohugoioTheme/master/static/images/hugo-logo-wide.svg?sanitize=true)
+
+<escape><!-- more --></escape>
 ## 新见一个网站目录
 ```
 hugo new site blog
