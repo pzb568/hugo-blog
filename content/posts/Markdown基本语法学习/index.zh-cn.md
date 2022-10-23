@@ -9,7 +9,7 @@ license: ""
 images: []
 
 tags: []
-categories: []
+categories: ["documentation"]
 
 featuredImage: ""
 featuredImagePreview: ""
