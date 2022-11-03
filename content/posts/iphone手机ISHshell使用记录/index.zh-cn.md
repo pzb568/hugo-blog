@@ -8,8 +8,8 @@ description: ""
 license: ""
 images: []
 
-tags: []
-categories: []
+tags: ["ISH shel"]
+categories: ["documentation"]
 
 featuredImage: ""
 featuredImagePreview: ""
