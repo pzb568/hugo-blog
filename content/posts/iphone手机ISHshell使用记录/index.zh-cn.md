@@ -1,5 +1,5 @@
 ---
-ubtitle: "iphone手机ISH shell使用记录"
+ubtitle: "iphone手机ISHshell使用记录"
 date: 2022-11-02T07:53:41Z
 lastmod: 2022-11-02T07:53:41Z
 draft: false
@@ -76,10 +76,11 @@ seo:
 
 >安装必要软件(ish包管理命令是[^apk][^apk]: 输入'apk'了解详细命令)
 
-```
-apk add vim git openssh python zsh 
 
 ```
+apk add vim git openssh python zsh 
+```
+
 ### 更换源
 
 >以下命令直接更换清华源
@@ -87,14 +88,13 @@ apk add vim git openssh python zsh
 
 ```
 sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/repositories
-
 ```
+
 ### 修改git限制和拉取失败问题
 >因为git默认的 http.postBuffer大小为1M。所以clone较大的文件时偶尔会失败，上面的命令是将git的http.postBuffer大小设置为500M。
 
 ```
 git config --global http.postBuffer 524288000
-
 ```
 >git拉取失败问题
 
@@ -102,8 +102,6 @@ git config --global http.postBuffer 524288000
 
 ```
 git config —global pack.threads “1”
-
-
 ```
 
 
