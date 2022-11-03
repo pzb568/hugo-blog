@@ -2,7 +2,7 @@
 ubtitle: "iphone手机ISH shell使用记录"
 date: 2022-11-02T07:53:41Z
 lastmod: 2022-11-02T07:53:41Z
-draft: true
+draft: false
 author: ""
 authorLink: ""
 description: ""
