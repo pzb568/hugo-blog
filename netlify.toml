@@ -7,7 +7,7 @@ HUGO_VERSION = "0.147.2"  # 更新为最新版本
 HUGO_ENV = "production"
 
 [context.production]
-command = "hugo --gc --minify --enableGitInfo -b https://yourdomain.com"
+command = "hugo --gc --minify --enableGitInfo -b https://pzb.netlify.app"
 
 [context.production.environment]
 HUGO_ENABLEGITINFO = "true"
