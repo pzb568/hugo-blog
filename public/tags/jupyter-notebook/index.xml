@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jupyter Notebook on 风轻云淡</title><link>http://localhost:43401/tags/jupyter-notebook/</link><description>Recent content in Jupyter Notebook on 风轻云淡</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>pzb678@criptext.com (彭宅波)</managingEditor><webMaster>pzb678@criptext.com (彭宅波)</webMaster><lastBuildDate>Fri, 09 Nov 2018 00:08:09 +0800</lastBuildDate><atom:link href="http://localhost:43401/tags/jupyter-notebook/index.xml" rel="self" type="application/rss+xml"/><item><title>学习程序开发的神器Jupyter notebook</title><link>http://localhost:43401/2018/11/%E5%AD%A6%E4%B9%A0%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E7%9A%84%E7%A5%9E%E5%99%A8jupyter-notebook/</link><pubDate>Fri, 09 Nov 2018 00:08:09 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2018/11/%E5%AD%A6%E4%B9%A0%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E7%9A%84%E7%A5%9E%E5%99%A8jupyter-notebook/</guid><description>&lt;h1 id="jupyter-notebook简介">Jupyter notebook简介
+&lt;/h1>&lt;p>   Jupyter notebook（又称 IPython notebook），支持运行超过 40 种编程语言。Python 的一个强大的模块, 成功安装的话可以实现比caddy的效果, 支持web下的终端操作, 支持代码高亮运行。&lt;br>
+&lt;escape>&lt;!-- more -->&lt;/escape>&lt;/p>
+&lt;h1 id="jupyter-notebook安装">Jupyter notebook安装
+&lt;/h1>&lt;ol>
+&lt;li>安装python 编译库&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">pkg install python
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">pkg install python-dev
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="2">
+&lt;li>用python封装包安装&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">pip install jupyter
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="3">
+&lt;li>启动&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">jupyter notebook
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>如下图&lt;br>
+复制最下面的网址到浏览器&lt;br>
+&lt;img src="http://localhost:43401/1.jpg"
+loading="lazy"
+>&lt;br>
+然后就可以开始尽情的玩耍了&lt;br>
+&lt;img src="http://localhost:43401/2.jpg"
+loading="lazy"
+>&lt;/p>
+&lt;h1 id="jupyter-notebook卸载">Jupyter notebook卸载
+&lt;/h1>&lt;p>使用&lt;strong>pip uninstall jupyter&lt;/strong>是无法卸载的必须使用下面方法。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">pip install pip-autoremove
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">pip-autoremove jupyter -y
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item></channel></rss>

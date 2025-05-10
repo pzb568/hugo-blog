@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>批量重命名 on 风轻云淡</title><link>http://localhost:43401/tags/%E6%89%B9%E9%87%8F%E9%87%8D%E5%91%BD%E5%90%8D/</link><description>Recent content in 批量重命名 on 风轻云淡</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>pzb678@criptext.com (彭宅波)</managingEditor><webMaster>pzb678@criptext.com (彭宅波)</webMaster><lastBuildDate>Wed, 25 Sep 2019 11:57:42 +0800</lastBuildDate><atom:link href="http://localhost:43401/tags/%E6%89%B9%E9%87%8F%E9%87%8D%E5%91%BD%E5%90%8D/index.xml" rel="self" type="application/rss+xml"/><item><title>批量重命名</title><link>http://localhost:43401/2019/09/%E6%89%B9%E9%87%8F%E9%87%8D%E5%91%BD%E5%90%8D/</link><pubDate>Wed, 25 Sep 2019 11:57:42 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2019/09/%E6%89%B9%E9%87%8F%E9%87%8D%E5%91%BD%E5%90%8D/</guid><description>&lt;p>   经常大量导入或者插入批量图片、视频、音乐等等；文件名太长不方便记忆和输入，使用如下命令直接批量重命名以1开始.扩展名的文件。&lt;/p>
+&lt;blockquote>
+&lt;p>下面是批量重命名mp4，如果修改其他文件，需要修改扩展名。&lt;/p>&lt;/blockquote>
+&lt;p>&lt;escape>&lt;!-- more -->&lt;/escape>&lt;br>
+例如批量重命名mp4 文件&lt;br>
+批量重命名为数字.mp4&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">i=1; for x in *; do mv $x $i.mp4; let i=i+1; done
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item></channel></rss>

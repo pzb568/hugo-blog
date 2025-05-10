@@ -1,0 +1,166 @@
+# 基本配置
+baseURL = "https://pzb.netlify.app"
+title = "风轻云淡"
+theme = "stack"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"
+enableEmoji = true
+enableGitInfo = true  # 启用 Git 信息以跟踪最后修改时间
+enableRobotsTXT = true  # 自动生成 robots.txt
+hasCJKLanguage = true  # 优化中文内容分词和渲染
+disableKinds = []  # 确保所有页面类型都启用
+
+# 网站参数
+[params]
+  description = "记录技术与生活的点滴。"
+  keywords = ["博客", "技术", "生活", "编程", "笔记"]
+  favicon = "/images/favicon.ico"
+  siteIcon = "/images/icon.png"
+  # 将 dateFormat 改为表格格式
+  dateFormat = { published = "2006-01-02", lastUpdated = "2006-01-02 15:04" }
+
+  [params.author]
+    name = "彭宅波"
+    email = "pzb678@criptext.com"
+
+  [params.social]
+    github = "penghub"
+    twitter = "penghub_cn"
+
+  [params.image]
+    responsive = true
+    optimize = true
+    lazyLoading = true
+    quality = 85  # 图片压缩质量（1-100）
+    maxWidth = 1920  # 限制图片最大宽度以优化加载
+
+  [params.opengraph]
+    title = "风轻云淡 - 彭宅波的博客"
+    description = "记录技术与生活的点滴。"
+    type = "website"
+    image = "/images/og-image.png"  # 添加默认分享图片
+    [params.opengraph.twitter]
+      site = "@penghub_cn"
+      creator = "@penghub_cn"
+      card = "summary_large_image"
+
+  [params.search]
+    enable = true
+    indexOutput = "search-index.json"
+    maxResults = 10
+    minLength = 2  # 搜索关键词最小长度
+
+  [params.schema]
+    type = "Person"  # 结构化数据类型
+    name = "彭宅波"
+    description = "记录技术与生活的点滴。"
+    sameAs = ["https://github.com/penghub", "https://twitter.com/penghub_cn"]
+
+# Markdown 渲染设置
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # 允许原始 HTML
+      hardWraps = true
+      xHTML = false
+    [markup.goldmark.extensions]
+      typographer = true
+      footnote = true
+      definitionList = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    style = "monokai"
+    noClasses = false  # 启用 CSS 类以支持主题高亮
+
+# 输出格式
+[outputFormats]
+  [outputFormats.SearchIndex]
+    mediaType = "application/json"
+    baseName = "search-index"
+    isPlainText = true
+    notAlternative = true
+
+# 输出类型
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
+
+# 菜单配置
+[[menu.main]]
+  identifier = "home"
+  name = "首页"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "archives"
+  name = "归档"
+  url = "/archives/"
+  weight = 3
+
+[[menu.main]]
+  identifier = "search"
+  name = "搜索"
+  url = "/search/"
+  weight = 4
+  
+[[menu.main]]
+  identifier = "about"
+  name = "关于"
+  url = "/about/"
+  weight =5 
+
+
+
+
+# 服务配置（可选）
+[services]
+  # [services.googleAnalytics]
+  #   ID = "G-XXXXXXXXXX"
+  #   anonymizeIP = true
+
+# 固定链接
+[permalinks]
+  posts = "/:year/:month/:slug/"  # 使用 :slug 替代 :title 以支持中文 URL
+
+# 压缩设置
+[minify]
+  minifyOutput = true
+  [minify.tdewolff]
+    [minify.tdewolff.html]
+      keepConditionalComments = true
+      keepDefaultAttrVals = false
+      keepWhitespace = false
+    [minify.tdewolff.css]
+      precision = 5
+    [minify.tdewolff.js]
+      keepVarNames = true
+
+# 缓存设置
+[cache]
+  enabled = true
+  maxAge = 86400  # 1 天
+  [cache.assets]
+    maxAge = 604800  # 7 天
+  [cache.get]
+    maxAge = 86400
+
+# 内容缓存
+[content]
+  cache = true
+  maxAge = 86400
+
+# 站点地图
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+# 模块配置
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.120.0"  # 更新到较新版本以支持最新功能

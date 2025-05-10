@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数学公式 on 风轻云淡</title><link>http://localhost:43401/tags/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</link><description>Recent content in 数学公式 on 风轻云淡</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>pzb678@criptext.com (彭宅波)</managingEditor><webMaster>pzb678@criptext.com (彭宅波)</webMaster><lastBuildDate>Tue, 30 Apr 2019 23:25:52 +0800</lastBuildDate><atom:link href="http://localhost:43401/tags/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>hexo开启Mathjax语法渲染配置折腾记</title><link>http://localhost:43401/2019/04/hexo%E5%BC%80%E5%90%AFmathjax%E8%AF%AD%E6%B3%95%E6%B8%B2%E6%9F%93%E9%85%8D%E7%BD%AE%E6%8A%98%E8%85%BE%E8%AE%B0/</link><pubDate>Tue, 30 Apr 2019 23:25:52 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2019/04/hexo%E5%BC%80%E5%90%AFmathjax%E8%AF%AD%E6%B3%95%E6%B8%B2%E6%9F%93%E9%85%8D%E7%BD%AE%E6%8A%98%E8%85%BE%E8%AE%B0/</guid><description>&lt;h1 id="mathjax介绍">Mathjax介绍
+&lt;/h1>&lt;p>   hexo默认的渲染器是marked，并不支持mathjax。kramed是在marked基础上修改的，支持了mathjax。在的hexo工程目录下的node_modules中可以找到对应的渲染器文件夹。同时在你的工程目录下用以下命令安装kramed。另外补充一个NexT配置中推荐的渲染器hexo-renderer-pandoc，功能很强大不仅可以渲染markdown，还支持textile、reStructedText等许多其他格式&lt;/p>
+&lt;h1 id="安装渲染器">安装渲染器
+&lt;/h1>&lt;h2 id="卸载默认渲染器">卸载默认渲染器
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">npm uninstall hexo-renderer-marked --save
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="安装修改kramed渲染器">安装修改kramed渲染器
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">npm install hexo-renderer-kramed --save
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>或者&lt;code>npm install hexo-renderer-pandoc --save&lt;/code>如果是在安卓手机termux里面部署网站这个插件不能使用，因为必装&lt;code>pandoc&lt;/code>，termux安装pandoc不成功。&lt;/p>
+&lt;h1 id="安装hexo-renderer-mathjax插件">安装&lt;strong>hexo-renderer-mathjax&lt;/strong>插件
+&lt;/h1>&lt;p>如果安装了hexo-math插件，需要卸载再安装。&lt;/p>
+&lt;h2 id="卸载hexo-math插件">卸载hexo-math插件
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">npm uninstall hexo-math --save
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="安装">安装
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">npm install hexo-renderer-mathjax --save
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="cdn加速">CDN加速
+&lt;/h2>&lt;blockquote>
+&lt;p>更新mathjax的CDN链接，打开node_modules/hexo-renderer-mathjax/mathjax.html&lt;/p>&lt;/blockquote>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">&amp;lt;script src=&amp;#34;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML&amp;#34;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h1 id="主题配置">主题配置
+&lt;/h1>&lt;p>math:&lt;br>
+enable: true #开启&lt;/p>
+&lt;p>engine: mathjax 取消注释&lt;/p>
+&lt;h1 id="文章front-matter中开启mathjax">文章Front-matter中开启mathjax
+&lt;/h1>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">---
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">title:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">category:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">date:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mathjax: true #开启后才会渲染数学公式
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">---
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;escape>&lt;!-- more -->&lt;/escape>&lt;/p>
+&lt;h1 id="测试">测试
+&lt;/h1>&lt;p>下面来测试一下&lt;/p>
+&lt;p>##麦克斯韦方程组&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">\begin{eqnarray}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">\nabla\cdot\vec{E} &amp;amp;=&amp;amp; \frac{\rho}{\epsilon_0} \\
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">\nabla\cdot\vec{B} &amp;amp;=&amp;amp; 0 \\
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">\nabla\times\vec{E} &amp;amp;=&amp;amp; -\frac{\partial B}{\partial t} \\
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">\nabla\times\vec{B} &amp;amp;=&amp;amp; \mu_0\left(\vec{J}+\epsilon_0\frac{\partial E}{\partial t} \right)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">\end{eqnarray}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>$$&lt;br>
+\begin{eqnarray}&lt;br>
+\nabla\cdot\vec{E} &amp;amp;=&amp;amp; \frac{\rho}{\epsilon_0} \&lt;br>
+\nabla\cdot\vec{B} &amp;amp;=&amp;amp; 0 \&lt;br>
+\nabla\times\vec{E} &amp;amp;=&amp;amp; -\frac{\partial B}{\partial t} \&lt;br>
+\nabla\times\vec{B} &amp;amp;=&amp;amp; \mu_0\left(\vec{J}+\epsilon_0\frac{\partial E}{\partial t} \right)&lt;br>
+\end{eqnarray}&lt;br>
+$$&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">$$\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.$$
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>$$\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt,.$$&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">\frac{\partial u}{\partial t} = h^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>$$&lt;br>
+\frac{\partial u}{\partial t} = h^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right)&lt;br>
+$$&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"> $$
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">f(n)=\begin{cases}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">n/2, &amp;amp; \text{如果$ x&amp;lt;=2 $}\\
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">3n+1, &amp;amp; \text{如果$ x&amp;gt;2 $}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">\end{cases}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>$$ &lt;br>
+f(n)=\begin{cases}&lt;br>
+n/2, &amp;amp; \text{如果$ x&amp;lt;=2 $}\&lt;br>
+3n+1, &amp;amp; \text{如果$ x&amp;gt;2 $}&lt;br>
+\end{cases}&lt;br>
+$$&lt;/p>
+&lt;h2 id="标题latex特性测试">标题Latex特性测试
+&lt;/h2>&lt;ol>
+&lt;li>Setext 形式&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">H1
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">====
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">H2
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">----
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h1 id="h1">H1
+&lt;/h1>&lt;h2 id="h2">H2
+&lt;/h2>&lt;p>= 和 - 的数量是没有限制的。通常的做法是使其和标题文本的长度相同，这样看起来比较舒服。或者可以像我一样，用四个 - 或 =。&lt;br>
+Setext 形式只支持 h1 和 h2 两种标题。&lt;/p>
+&lt;ol start="2">
+&lt;li>atx 形式&lt;br>
+#####① 可以用对称的 # 包括文本：#####&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">####H4####
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">#####H5#####
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>####H4####&lt;/p>
+&lt;p>#####H5#####&lt;/p>
+&lt;h5 id="-也可以只在左边使用-">② 也可以只在左边使用 #：
+&lt;/h5>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">####H4
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">#####H5
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>####H4&lt;/p>
+&lt;p>#####H5&lt;/p>
+&lt;p>③ 成对的 # 左侧和只在左边使用的 # 左侧都不可以有任何空白，但其内侧可以使用空白。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"> ###左侧使用了空格###
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">#### 内侧使用了空格
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>###左侧使用了空格###&lt;/p>
+&lt;h4 id="内侧使用了空格">内侧使用了空格
+&lt;/h4></description></item></channel></rss>

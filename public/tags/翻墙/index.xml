@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>翻墙 on 风轻云淡</title><link>http://localhost:43401/tags/%E7%BF%BB%E5%A2%99/</link><description>Recent content in 翻墙 on 风轻云淡</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>pzb678@criptext.com (彭宅波)</managingEditor><webMaster>pzb678@criptext.com (彭宅波)</webMaster><lastBuildDate>Sat, 17 Nov 2018 15:06:36 +0800</lastBuildDate><atom:link href="http://localhost:43401/tags/%E7%BF%BB%E5%A2%99/index.xml" rel="self" type="application/rss+xml"/><item><title>WireGuard的使用与分享</title><link>http://localhost:43401/2018/11/wireguard%E7%9A%84%E4%BD%BF%E7%94%A8%E4%B8%8E%E5%88%86%E4%BA%AB/</link><pubDate>Sat, 17 Nov 2018 15:06:36 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2018/11/wireguard%E7%9A%84%E4%BD%BF%E7%94%A8%E4%B8%8E%E5%88%86%E4%BA%AB/</guid><description>&lt;p>   WireGuard是国外开发的一个高速翻墙工具，没有中文，但是非常简单好用，现在推荐给大家&lt;br>
+1.注册AzireVPN账号：https://www.azirevpn.com/manager/auth/login，只需要填写用户名USERNAME和密码PASSWORD即可，可以不填Email，这才是注重隐私的VPN供应商&lt;br>
+&lt;del>2.下载配置文件：https://www.azirevpn.com/cfg/wireguard，在这个网址填写注册的用户名密码，点Download Configuration。目前提供了加拿大多伦多(azirevpn-ca1)，西班牙马拉加(azirevpn-es1)，瑞典斯德哥尔摩(azirevpn-se1)，英国伦敦(azirevpn-uk1)，美国迈阿密(azirevpn-us1)这5个节点&lt;/del>之前有免费体验，现在只能购买了。&lt;/p>
+&lt;p>&lt;escape>&lt;!-- more -->&lt;/escape>&lt;/p>
+&lt;h2 id="安装">安装
+&lt;/h2>&lt;h3 id="安卓">安卓
+&lt;/h3>&lt;p>安装WireGuard Android客户端，Play下载地址：https://play.google.com/store/apps/details?id=com.wireguard.android&lt;br>
+4.导入配置文件：把之前下载的配置文件传到手机里，手机上打开WireGuard客户端，点右下角加号，选择第一个Create from file or archive，点选传到手机里的配置文件。这时直接点选某个配置文件即可连接VPN，建议选择uk1服务器&lt;br>
+5.WireGuard客户端可以允许部分应用绕过VPN，打开WireGuard，点击一个节点配置，在右上角点击铅笔按钮，在中间有蓝色的0 EXCLUDED APPLICATIONS，点击后进入APP排除设置，勾选某个APP就是让这个APP不走VPN通道。选择完成后点右下角蓝色SET EXCLUSIONGS，然后点配置界面右上角的保存按钮即可。&lt;br>
+6.WireGuard Android客户端支持快捷设置面板功能。即在下拉通知栏中可以添加WireGuard快捷设置&lt;/p>
+&lt;h3 id="苹果">苹果
+&lt;/h3>&lt;blockquote>
+&lt;p>以下是苹果应用市场下载地址&lt;br>
+&lt;a class="link" href="https://apps.apple.com/us/app/wireguard/id1441195209?l=zh" target="_blank" rel="noopener"
+>https://apps.apple.com/us/app/wireguard/id1441195209?l=zh&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;h2 id="分享">分享
+&lt;/h2></description></item><item><title>v2ray的使用方法与节点分享</title><link>http://localhost:43401/2018/11/v2ray%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95%E4%B8%8E%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB/</link><pubDate>Fri, 09 Nov 2018 14:13:28 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2018/11/v2ray%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95%E4%B8%8E%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB/</guid><description>&lt;p>   v2ray相比ss系列提高了安全性，减少被&lt;strong>防火墙&lt;/strong>封锁的风险，同时可以使用ss的节点(但是不支持SSR节点)。 想了解详细的安装说明信息可以在去&lt;a class="link" href="www.v2ray.com" >官方网站&lt;/a>或者去github &lt;a class="link" href="https://github.com/v2ray/v2ray-core" target="_blank" rel="noopener"
+>v2ray&lt;/a>开源项目的教程说明。&lt;/p>
+&lt;h2 id="软件下载">软件下载
+&lt;/h2>&lt;h3 id="安卓系统">安卓系统
+&lt;/h3>&lt;ol>
+&lt;li>v2rayNG（推荐使用）&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>下载地址&lt;br>
+&lt;a class="link" href="https://github.com/2dust/v2rayNG/releases" target="_blank" rel="noopener"
+>https://github.com/2dust/v2rayNG/releases&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;ul>
+&lt;li>导入下面节点&lt;br>
+&lt;img src="https://ftp.bmp.ovh/imgs/2019/08/0027ef05f989a975.jpg"
+loading="lazy"
+>&lt;br>
+&lt;img src="https://ftp.bmp.ovh/imgs/2019/08/0027ef05f989a975.jpg"
+loading="lazy"
+>&lt;/li>
+&lt;/ul>
+&lt;ol start="2">
+&lt;li>Surfboard （强烈推荐 ）&lt;/li>
+&lt;/ol>
+&lt;blockquote>
+&lt;p>推荐使用速度非常快，可以扫描二维码和配合v2rayNG节点导出剪切板然后到Surfboard点击加号选择使用连接下载或添加订阅 保存即可；youtube上有人评测Surfboard是最快的，想了解详细情况点击下面网址&lt;a class="link" href="https://jsproxy.pzb.workers.dev/-----https://m.youtube.com/watch?v=oG8y-6s6Aek" target="_blank" rel="noopener"
+>https://jsproxy.pzb.workers.dev/-----https://m.youtube.com/watch?v=oG8y-6s6Aek&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;ol start="3">
+&lt;li>Pharos Pro (支持最全面)&lt;/li>
+&lt;/ol>
+&lt;blockquote>
+&lt;p>&lt;a class="link" href="https://pi-pi.gitbook.io/pharos-pro/" target="_blank" rel="noopener"
+>Pharos Pro&lt;/a> 支持Android和iOS，支持 Trojan、V2ray-Core、SS、SS+Simple obfs、SSR、socks5、Https协议。目前还在测试中。详细情况可以点击前面链接访问开发者的文档。&lt;br>
+下面附上下载地址&lt;a class="link" href="https://tg.pzb.workers.dev/" target="_blank" rel="noopener"
+>Pharos Pro&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;ol start="4">
+&lt;li>Clash&lt;br>
+Clash 是一个使用 Go 语言编写、基于规则的跨平台代理核心程序。Clash目前有Windows、MacOS、Android等多个平台的GUI程序，支持SS/V2ray/Trojan多种协议，功能强大。&lt;/li>
+&lt;/ol>
+&lt;blockquote>
+&lt;p>支持把所有的节点全部托管 ，然后按照速度自动选择连接&lt;/p>&lt;/blockquote>
+&lt;ol>
+&lt;li>下载&lt;br>
+官网下载 ：&lt;a class="link" href="https://github.com/Kr328/ClashForAndroid/releases" target="_blank" rel="noopener"
+>https://github.com/Kr328/ClashForAndroid/releases&lt;/a>&lt;/li>
+&lt;li>制作托管链接&lt;br>
+&lt;a class="link" href="https://bianyuan.xyz/" target="_blank" rel="noopener"
+>https://bianyuan.xyz/&lt;/a>&lt;/li>
+&lt;li>复制下面的节点&lt;/li>
+&lt;li>粘贴到上面网页&lt;/li>
+&lt;li>点击生成链接并复制&lt;/li>
+&lt;li>粘贴到clash配置新配置URL导入&lt;/li>
+&lt;li>点击启动开始使用&lt;/li>
+&lt;/ol>
+&lt;h3 id="win系统">WIN系统
+&lt;/h3>&lt;ol>
+&lt;li>下载地址&lt;/li>
+&lt;/ol>
+&lt;p>&lt;a class="link" href="https://github.com/2dust/v2rayN/releases/download/5.37/v2rayN-Core.zip" target="_blank" rel="noopener"
+>https://github.com/2dust/v2rayN/releases/download/5.37/v2rayN-Core.zip&lt;/a>&lt;/p>
+&lt;ol start="2">
+&lt;li>解压&lt;/li>
+&lt;/ol>
+&lt;img src = 'https://i.bmp.ovh/imgs/2019/02/59c05c1db8f6584b.jpg' />
+&lt;ol start="3">
+&lt;li>创建快捷方式双击启动 v2rayN 。&lt;/li>
+&lt;/ol>
+&lt;h3 id="linux系统">Linux系统
+&lt;/h3>&lt;p>使用Linux系统的都是大神级的，安装和使用都不在话下，这里就不出教程了。&lt;/p>
+&lt;blockquote>
+&lt;p>推荐使用Qv2ray详细说明请访问&lt;a class="link" href="https://github.com/Qv2ray/Qv2ray" target="_blank" rel="noopener"
+>github&lt;/a>,配置教程请浏览官方教程网站&lt;a class="link" href="https://qv2ray.net/lang/zh/" target="_blank" rel="noopener"
+>qv2ray&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;h3 id="苹果系统">苹果系统
+&lt;/h3>&lt;h4 id="ios">IOS
+&lt;/h4>&lt;blockquote>
+&lt;p>由于苹果系统相对封闭，不明国情原因，国区几乎所有软件全部下架；但是还是可以通过切换其他区域帐号下载和购买。&lt;/p>&lt;/blockquote>
+&lt;h5 id="shadowrocket">shadowrocket
+&lt;/h5>&lt;p>&lt;a class="link" href="https://apps.apple.com/us/app/shadowrocket/id932747118" target="_blank" rel="noopener"
+>App Store&lt;/a>&lt;/p>
+&lt;p>以下是软件图片&lt;br>
+&lt;img src="https://goindex.pzb.workers.dev/0:/img/IMG_0381.PNG"
+loading="lazy"
+>&lt;/p>
+&lt;h5 id="pharos">Pharos
+&lt;/h5>&lt;p>下载地址&lt;a class="link" href="https://apps.apple.com/sg/app/pharos-pro/id1456610173" target="_blank" rel="noopener"
+>App Store&lt;/a>&lt;/p>
+&lt;h4 id="mac">mac
+&lt;/h4>&lt;p>V2RayX&lt;/p>
+&lt;blockquote>
+&lt;p>下载地址&lt;br>
+&lt;a class="link" href="https://github.com/Cenmrev/V2RayX/releases/download/v1.5.1/V2RayX.app.zip" target="_blank" rel="noopener"
+>https://github.com/Cenmrev/V2RayX/releases/download/v1.5.1/V2RayX.app.zip&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;p>&lt;escape>&lt;!-- more -->&lt;/escape>&lt;/p>
+&lt;h2 id="订阅地址">订阅地址
+&lt;/h2>&lt;p>以下是我收集的订阅，分享给大家&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">https://v2.itlao5.com/v2
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">https://jiang.netlify.com/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">https://qiaomenzhuanfx.netlify.com/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">https://raw.fastgit.org/freefq/free/master/v2
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="节点分享">节点分享
+&lt;/h2>&lt;p>以下节点我会不定期更新，请注意更新日期&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">vmess://eyJhZGQiOiI2Ni4xODEuNDUuMTY5IiwiYWlkIjoiMiIsImhvc3QiOiIiLCJpZCI6IjQ3NWU3MTEzLWEzNGMtNDU1YS1lMmE0LTFlYzhlYzkzMDEwOCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiNTIzMzMiLCJwcyI6Il8wMSB8NDMuMjVNYiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">vmess://eyJhZGQiOiIxMDcuMTc1LjIxLjE1OCIsImFpZCI6IjIiLCJob3N0IjoiIiwiaWQiOiI0NzVlNzExMy1hMzRjLTQ1NWEtZTJhNC0xZWM4ZWM5MzAxMDgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6IjUyMzMzIiwicHMiOiJfMDIgfDE2MS4wMU1iIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">vmess://eyJhZGQiOiI3NS4yLjMxLjE2NiIsImFpZCI6IjY0IiwiaG9zdCI6IiIsImlkIjoiNDEwYTQzNDEtMTg3Mi00MTA5LWVjYmEtZGE4MzAyZGMzZDcwIiwibmV0Ijoid3MiLCJwYXRoIjoiL3YycmF5IiwicG9ydCI6IjQ4NjA3IiwicHMiOiJfMDMgfDE5Ljg2TWIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">vmess://eyJhZGQiOiIxMDMuMjE5LjE1NC4xNzAiLCJhaWQiOiIyIiwiaG9zdCI6IiIsImlkIjoiNDc1ZTcxMTMtYTM0Yy00NTVhLWUyYTQtMWVjOGVjOTMwMTA4IiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiI1MjMzMyIsInBzIjoiXzA1IHwzMC43OU1iIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">vmess://eyJhZGQiOiIxMDcuMTc1LjAuMjAxIiwiYWlkIjoiMiIsImhvc3QiOiIiLCJpZCI6IjQ3NWU3MTEzLWEzNGMtNDU1YS1lMmE0LTFlYzhlYzkzMDEwOCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiNTIzMzMiLCJwcyI6Il8wNiB8NzMuNDBNYiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">vmess://eyJhZGQiOiJoa2FnYS45OWlwbGMueHl6IiwiYWlkIjoiMSIsImhvc3QiOiIiLCJpZCI6Ijc2MmY1MGY3LTIyNjQtMzUxMC05ZmJhLTZkM2UzOWFjNjIzZSIsIm5ldCI6IndzIiwicGF0aCI6Ii92MiIsInBvcnQiOiIyMDAwMCIsInBzIjoiXzA4IHwgMi44Nk1iIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">vmess://eyJhZGQiOiIxNTQuODQuMS4xNDAiLCJhaWQiOiI2NCIsImhvc3QiOiIiLCJpZCI6IjJhNzM0OWQ2LTk5NGEtNDM0Yi05NTg5LWMwMDIwNjg1ZTUyOCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwicG9ydCI6IjU0NjcxIiwicHMiOiJOTC3kuozniLflhY3otLnnv7vlopnnvZEgaHR0cHM6Ly81NDE0Lm1sIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">vmess://eyJhZGQiOiI4LjIxMC4zLjEzMyIsImFpZCI6IjIzMyIsImhvc3QiOiIiLCJpZCI6ImMyMTgxMTg0LWU0ODctNGIzNy1hMDI5LWY2MWQ5MDUyMzk1MCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwicG9ydCI6IjU2NjQ3IiwicHMiOiJTRy3kuozniLflhY3otLnnv7vlopnnvZEgaHR0cHM6Ly81NDE0Lm1sIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">vmess://eyJhZGQiOiIxLjAuMC4xIiwiYWlkIjoiMiIsImhvc3QiOiJ3LmJhaWR1MmIubWwiLCJpZCI6ImMyZmYyOTdlLTAzZWEtNGQ0My1hZjMyLTc5NTNhNGZiYjYzYyIsIm5ldCI6IndzIiwicGF0aCI6Ii8xZGE0MWQ3LyIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh6bwn4e6IEFVXzIzNCIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">vmess://eyJhZGQiOiIxLjAuMC4xIiwiYWlkIjoiMiIsImhvc3QiOiJ3LmJhaWR1MmIubWwiLCJpZCI6ImMyZmYyOTdlLTAzZWEtNGQ0My1hZjMyLTc5NTNhNGZiYjYzYyIsIm5ldCI6IndzIiwicGF0aCI6Ii8xZGE0MWQ3LyIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh6bwn4e6IEFVXzIzOCB8NTkuODhNYiIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">vmess://eyJhZGQiOiIxLjEuMS4xMDAiLCJhaWQiOiIyIiwiaG9zdCI6InZpci5sYW9iYW42NjYueHl6IiwiaWQiOiI0ZjY3MmFiNi0yNWUzLTQ5ZTgtOTUxYS1kODdiMWZhNzU0NjciLCJuZXQiOiJ3cyIsInBhdGgiOiIvY2UwNC8iLCJwb3J0IjoiNDQzIiwicHMiOiLwn4em8J+HuiBBVV8yNzIgfDY0LjU5TWIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">vmess://eyJhZGQiOiIxLjAuMC4xIiwiYWlkIjoiMiIsImhvc3QiOiJ3LmJhaWR1MmIubWwiLCJpZCI6ImMyZmYyOTdlLTAzZWEtNGQ0My1hZjMyLTc5NTNhNGZiYjYzYyIsIm5ldCI6IndzIiwicGF0aCI6Ii8xZGE0MWQ3LyIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh6bwn4e6IEFVXzI4MCB8MTM3LjQwTWIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">vmess://eyJhZGQiOiJ2Mi0wNC5zc3JzdWIub25lIiwiYWlkIjoiMzIiLCJob3N0IjoiIiwiaWQiOiIyOGFkYmVhOC03YzBkLTQwNzQtODE1Zi0xMGRlNjU3NGZiMmEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HqPCfh6YgQ0FfNTE5IHwgMi4wNk1iIiwidGxzIjoidGxzIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">vmess://eyJhZGQiOiIxMjAuMjMyLjQzLjE5NSIsImFpZCI6IjIiLCJob3N0IjoiczgueXQwMDQueHl6IiwiaWQiOiI3YWM4ZjNmNy05MWQ2LTM1ODYtYmQxYi1hMDllM2Y1MzMwMzQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdjJyYXkiLCJwb3J0IjoiMTExMTYiLCJwcyI6IvCfh6jwn4ezIENOXzQ0MSIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">vmess://eyJhZGQiOiIxMjAuMjMyLjQzLjE5NSIsImFpZCI6IjIiLCJob3N0IjoiczgueXQwMDQueHl6IiwiaWQiOiI3YWM4ZjNmNy05MWQ2LTM1ODYtYmQxYi1hMDllM2Y1MzMwMzQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdjJyYXkiLCJwb3J0IjoiMTExMTYiLCJwcyI6IvCfh6jwn4ezIENOXzQ3OCB8MTEuNDBNYiIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">vmess://eyJhZGQiOiIxMjAuMjMyLjQzLjE5NSIsImFpZCI6IjIiLCJob3N0IjoiczgueXQwMDQueHl6IiwiaWQiOiI3YWM4ZjNmNy05MWQ2LTM1ODYtYmQxYi1hMDllM2Y1MzMwMzQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdjJyYXkiLCJwb3J0IjoiMTExMTYiLCJwcyI6IvCfh6jwn4ezIENOXzU4NyIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">vmess://eyJhZGQiOiJ1cy4xOTkzMDEueHl6IiwiYWlkIjoiMTYiLCJob3N0IjoidXMuMTk5MzAxLnh5eiIsImlkIjoiZmQwMDkyN2EtYjBjMi00NjI5LWFlZjctZDlmZjE1YTlkNzIyIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dlYnNvY2tldCIsInBvcnQiOiIzMDAxMCIsInBzIjoi8J+HqPCfh7MgQ05fNTg5IHwgNC44ME1iIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">vmess://eyJhZGQiOiIxMjQuMjQ0LjE4Ni4xMjEiLCJhaWQiOiIyIiwiaG9zdCI6ImNlbnRvcy5mdWNoYXUueHl6IiwiaWQiOiJiNzA3YzllNi0zYTYxLTRmMGItODg0NC05YTM5OGNmYWRmYjciLCJuZXQiOiJ3cyIsInBhdGgiOiIvYWRkNzYzMTQvIiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HrfCfh7AgSEtfMTQ1NyIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">vmess://eyJhZGQiOiIxMzIuMTQ1LjExNS4xMjUiLCJhaWQiOiIyIiwiaG9zdCI6ImouMTk5MzAxLnh5eiIsImlkIjoiNmIzODYyN2ItYTA0NS00ZDc5LTk1YzgtZTUwNTA3M2RkMTJkIiwibmV0Ijoid3MiLCJwYXRoIjoiLzAzNjExMjUvIiwicG9ydCI6IjQ0MyIsInBzIjoi8J+Hr/Cfh7UgSlBfMTUwNyIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">vmess://eyJhZGQiOiIxNzIuMTA0LjgxLjkyIiwiYWlkIjoiMiIsImhvc3QiOiIiLCJpZCI6IjU1Yjk0OWIyLTQyNDAtNDk4NS04ZDU0LWQxZjA4M2ZmNWZjNyIs
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>ss系列软件分享及使用</title><link>http://localhost:43401/2018/11/ss%E7%B3%BB%E5%88%97%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB%E5%8F%8A%E4%BD%BF%E7%94%A8/</link><pubDate>Thu, 08 Nov 2018 23:42:34 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2018/11/ss%E7%B3%BB%E5%88%97%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB%E5%8F%8A%E4%BD%BF%E7%94%A8/</guid><description>&lt;p>   ss是非常流行的翻墙软件，涵盖所有平台，安全性不如之后会介绍的v2ray，都是速度非常快。&lt;/p>
+&lt;h1 id="软件下载">软件下载
+&lt;/h1>&lt;h2 id="安卓">安卓
+&lt;/h2>&lt;p>1.安卓&lt;br>
+推荐使用ssrr，我们给出下载地址&lt;br>
+&lt;a class="link" href="https://github.com/shadowsocksrr/shadowsocksr-android/releases" target="_blank" rel="noopener"
+>https://github.com/shadowsocksrr/shadowsocksr-android/releases&lt;/a>&lt;/p>
+&lt;h2 id="苹果">苹果
+&lt;/h2>&lt;p>1.现在软件，苹果的封闭特质，所有的VPN的软件都被下架，现在我找到一款可以使用的软件，不过这个软件只能使用ss类型的节点地址。&lt;br>
+下面这个链接里面有各个平台可以使用的软件及使用方法，有需要的可以下载下来研究一下，包括WIN系统 MAC系统 安卓系统 iOS系统版本的ss安装方法就不演示了。&lt;br>
+&lt;a class="link" href="http://diannaobos.iok.la:81/cdn/" target="_blank" rel="noopener"
+>http://diannaobos.iok.la:81/cdn/&lt;/a>&lt;br>
+&lt;escape>&lt;!-- more -->&lt;/escape>&lt;br>
+&lt;a class="link" href="https://itunes.apple.com/cn/app/ssrconnectpro/id1272045249?mt=8" target="_blank" rel="noopener"
+>https://itunes.apple.com/cn/app/ssrconnectpro/id1272045249?mt=8&lt;/a>&lt;/p>
+&lt;h1 id="路由规则">路由规则
+&lt;/h1>&lt;blockquote>
+&lt;p>连接成功后使用规则，不要代理的网站直接连接还可以去广告，github上有分享规则https://github.com/ACL4SSR/ACL4SSR&lt;/p>&lt;/blockquote>
+&lt;ul>
+&lt;li>选择服务器&lt;strong>功能设置&lt;/strong>下路由中选择&lt;strong>自定义ACL文件&lt;/strong>输入如下地址&lt;br>
+&lt;a class="link" href="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/banAD.acl" target="_blank" rel="noopener"
+>https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/banAD.acl&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h1 id="节点导入">节点导入
+&lt;/h1>&lt;blockquote>
+&lt;p>复制下面分享的节点 + 然后选择剪切板导入&lt;br>
+&lt;img src="https://ftp.bmp.ovh/imgs/2019/08/fd887c449c50c370.jpg"
+loading="lazy"
+>&lt;br>
+&lt;img src="https://ftp.bmp.ovh/imgs/2019/08/02f27578fd363637.jpg"
+loading="lazy"
+>&lt;/p>&lt;/blockquote>
+&lt;h1 id="节点分享">节点分享
+&lt;/h1>&lt;ol>
+&lt;li>github上分享的教程及点及免代理直接访问谷歌网站https://github.com/selierlin/Share-SSR-V2ray&lt;/li>
+&lt;li>本站节点分享，以下节点不定期更新；更新时间可以参考本文的更新时间；有任何问题请评论留言，你的留言是我继续更新的动力。&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">ssr://c3NyLmlwdjQuamotcDFoMzAzLTU4NC56aHpmZ2cubmdjc3NkZG5zLmNvbTo1ODQ6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6dGxzMS4yX3RpY2tldF9hdXRoOlkyTXVZWGcvP29iZnNwYXJhbT1kWEJrWVhSbExtMXBZM0p2YzI5bWRDNWpiMjAmcHJvdG9wYXJhbT1NVGt6TVRNek9rWlpUbkZ0YkEmcmVtYXJrcz01WXlGNXB5SUxlV01oZVd0b3kzbGpZcmx1YlF0NVl5RjVibTA2WU85NzctOSZncm91cD02TGVENVlxbzVhMlg2SXFD
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ssr://c3NyLmlwdjQuamotajFoMTExLTU4NC5oZHRmeGUubmdjc3NkZG5zLmNvbTo1ODQ6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6dGxzMS4yX3RpY2tldF9hdXRoOlkyTXVZWGcvP29iZnNwYXJhbT1kWEJrWVhSbExtMXBZM0p2YzI5bWRDNWpiMjAmcHJvdG9wYXJhbT1NVGt6TVRNek9rWlpUbkZ0YkEmcmVtYXJrcz01WVdONkxTNU1URW82TGVENVlxbzVhMlg2SXFDS1EmZ3JvdXA9NkxlRDVZcW81YTJYNklxQw
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ssr://c3NyLmlwdjQuamotcDFoMzA4LTU4NC56aHpmZ2cubmdjc3NkZG5zLmNvbTo1ODQ6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6dGxzMS4yX3RpY2tldF9hdXRoOlkyTXVZWGcvP29iZnNwYXJhbT1kWEJrWVhSbExtMXBZM0p2YzI5bWRDNWpiMjAmcHJvdG9wYXJhbT1NVGt6TVRNek9rWlpUbkZ0YkEmcmVtYXJrcz01WVdONkxTNU1UQW82TGVENVlxbzVhMlg2SXFDS1EmZ3JvdXA9NkxlRDVZcW81YTJYNklxQw
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ssr://c3NyLmlwdjQuamotajFoMTEyLTU4NC5oZHRmeGUubmdjc3NkZG5zLmNvbTo1ODQ6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6dGxzMS4yX3RpY2tldF9hdXRoOlkyTXVZWGcvP29iZnNwYXJhbT1kWEJrWVhSbExtMXBZM0p2YzI5bWRDNWpiMjAmcHJvdG9wYXJhbT1NVGt6TVRNek9rWlpUbkZ0YkEmcmVtYXJrcz01WVdONkxTNU1USW82TGVENVlxbzVhMlg2SXFDS1EmZ3JvdXA9NkxlRDVZcW81YTJYNklxQw
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ssr://c3NyLmlwdjQuamotcDFoMzA0LTU4NC56aHpmZ2cubmdjc3NkZG5zLmNvbTo1ODQ6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6dGxzMS4yX3RpY2tldF9hdXRoOlkyTXVZWGcvP29iZnNwYXJhbT1kWEJrWVhSbExtMXBZM0p2YzI5bWRDNWpiMjAmcHJvdG9wYXJhbT1NVGt6TVRNek9rWlpUbkZ0YkEmcmVtYXJrcz01WVdONkxTNU5pam90NFBsaXFqbHJaZm9pb0lwJmdyb3VwPTZMZUQ1WXFvNWEyWDZJcUM
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ssr://c3NyLmlwdjQuamotajFoMTEzLTU4NC5oZHRmeGUubmdjc3NkZG5zLmNvbTo1ODQ6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6dGxzMS4yX3RpY2tldF9hdXRoOlkyTXVZWGcvP29iZnNwYXJhbT1kWEJrWVhSbExtMXBZM0p2YzI5bWRDNWpiMjAmcHJvdG9wYXJhbT1NVGt6TVRNek9rWlpUbkZ0YkEmcmVtYXJrcz01WVdONkxTNU1UTW82TGVENVlxbzVhMlg2SXFDS1EmZ3JvdXA9NkxlRDVZcW81YTJYNklxQw
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ssr://c3NyLmlwdjQuamotcDFoMzAxLTU4NC56aHpmZ2cubmdjc3NkZG5zLmNvbTo1ODQ6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6dGxzMS4yX3RpY2tldF9hdXRoOlkyTXVZWGcvP29iZnNwYXJhbT1kWEJrWVhSbExtMXBZM0p2YzI5bWRDNWpiMjAmcHJvdG9wYXJhbT1NVGt6TVRNek9rWlpUbkZ0YkEmcmVtYXJrcz01NEs1NVlXczVMeVg3Ny05Jmdyb3VwPTZMZUQ1WXFvNWEyWDZJcUM
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ssr://c3NyLmlwdjQuamotajFoMTE2LTU4NC5oZHRmeGUubmdjc3NkZG5zLmNvbTo1ODQ6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6dGxzMS4yX3RpY2tldF9hdXRoOlkyTXVZWGcvP29iZnNwYXJhbT1kWEJrWVhSbExtMXBZM0p2YzI5bWRDNWpiMjAmcHJvdG9wYXJhbT1NVGt6TVRNek9rWlpUbkZ0YkEmcmVtYXJrcz01WVdONkxTNU1UWW82TGVENVlxbzVhMlg2SXFDS1EmZ3JvdXA9NkxlRDVZcW81YTJYNklxQw
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ssr://c3NyLmlwdjQuamotcDFoMzAyLTU4NC56aHpmZ2cubmdjc3NkZG5zLmNvbTo1ODQ6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6dGxzMS4yX3RpY2tldF9hdXRoOlkyTXVZWGcvP29iZnNwYXJhbT1kWEJrWVhSbExtMXBZM0p2YzI5bWRDNWpiMjAmcHJvdG9wYXJhbT1NVGt6TVRNek9rWlpUbkZ0YkEmcmVtYXJrcz1kbmc2TVRjMk56TTJNakk0TWprJmdyb3VwPTZMZUQ1WXFvNWEyWDZJcUM
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ssr://c3NyLmlwdjQuamotcDFoMzA2LTU4NC56aHpmZ2cubmdjc3NkZG5zLmNvbTo1ODQ6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6dGxzMS4yX3RpY2tldF9hdXRoOlkyTXVZWGcvP29iZnNwYXJhbT1kWEJrWVhSbExtMXBZM0p2YzI5bWRDNWpiMjAmcHJvdG9wYXJhbT1NVGt6TVRNek9rWlpUbkZ0YkEmcmVtYXJrcz01WVdONkxTNU9Dam90NFBsaXFqbHJaZm9pb0lwJmdyb3VwPTZMZUQ1WXFvNWEyWDZJcUM
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ssr://c3NyLmlwdjQuamotajFoMTE4LTU4NC5oZHRmeGUubmdjc3NkZG5zLmNvbTo1ODQ6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6dGxzMS4yX3RpY2tldF9hdXRoOlkyTXVZWGcvP29iZnNwYXJhbT1kWEJrWVhSbExtMXBZM0p2YzI5bWRDNWpiMjAmcHJvdG9wYXJhbT1NVGt6TVRNek9rWlpUbkZ0YkEmcmVtYXJrcz01WVdONkxTNU1UZ282TGVENVlxbzVhMlg2SXFDS1EmZ3JvdXA9NkxlRDVZcW81YTJYNklxQw
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ssr://c3NyLmlwdjQuamotcDFoMzA3LTU4NC56aHpmZ2cubmdjc3NkZG5zLmNvbTo1ODQ6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6dGxzMS4yX3RpY2tldF9hdXRoOlkyTXVZWGcvP29iZnNwYXJhbT1kWEJrWVhSbExtMXBZM0p2YzI5bWRDNWpiMjAmcHJvdG9wYXJhbT1NVGt6TVRNek9rWlpUbkZ0YkEmcmVtYXJrcz01WVdONkxTNU9Tam90NFBsaXFqbHJaZm9pb0lwJmdyb3VwPTZMZUQ1WXFvNWEyWDZJcUM
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ssr://c3NyLmlwdjQuamotajFoMTE0LTU4NC5oZHRmeGUubmdjc3NkZG5zLmNvbTo1ODQ6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6dGxzMS4yX3RpY2tldF9hdXRoOlkyTXVZWGcvP29iZnNwYXJhbT1kWEJrWVhSbExtMXBZM0p2YzI5bWRDNWpiMjAmcHJvdG9wYXJhbT1NVGt6TVRNek9rWlpUbkZ0YkEmcmVtYXJrcz01WVdONkxTNU1UUW82TGVENVlxbzVhMlg2SXFDS1EmZ3JvdXA9NkxlRDVZcW81YTJYNklxQw
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ssr://c3NyLmlwdjQuamotajFoMTE3LTU4NC5oZHRmeGUubmdjc3NkZG5zLmNvbTo1ODQ6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6dGxzMS4yX3RpY2tldF9hdXRoOlkyTXVZWGcvP29iZnNwYXJhbT1kWEJrWVhSbExtMXBZM0p2YzI5bWRDNWpiMjAmcHJvdG9wYXJhbT1NVGt6TVRNek9rWlpUbkZ0YkEmcmVtYXJrcz01WVdONkxTNU1UY282TGVENVlxbzVhMlg2SXFDS1EmZ3JvdXA9NkxlRDVZcW81YTJYNklxQw
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>谷歌系列浏览器插件翻墙设置及分享</title><link>http://localhost:43401/2018/11/%E8%B0%B7%E6%AD%8C%E7%B3%BB%E5%88%97%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6%E7%BF%BB%E5%A2%99%E8%AE%BE%E7%BD%AE%E5%8F%8A%E5%88%86%E4%BA%AB/</link><pubDate>Thu, 08 Nov 2018 12:13:06 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2018/11/%E8%B0%B7%E6%AD%8C%E7%B3%BB%E5%88%97%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6%E7%BF%BB%E5%A2%99%E8%AE%BE%E7%BD%AE%E5%8F%8A%E5%88%86%E4%BA%AB/</guid><description>&lt;h1 id="下载及使用">下载及使用
+&lt;/h1>&lt;h2 id="1--下载安装浏览器插件">1 . 下载安装浏览器插件
+&lt;/h2>&lt;p>所有Google系列的浏览器和火狐浏览器都可以下载安用SwitchyOmega插件，点击&lt;a class="link" href="https://www.switchyomega.com" target="_blank" rel="noopener"
+>SwitchyOmega&lt;/a>官方网站下载或者去github &lt;a class="link" href="https://github.com/FelisCatus/SwitchyOmega" target="_blank" rel="noopener"
+>SwitchyOmega&lt;/a>项目里面下载。&lt;/p>
+&lt;h2 id="2-输入服务器地址及服务器类型和端口">2. 输入服务器地址及服务器类型和端口
+&lt;/h2>&lt;p>新建情景模式名称&lt;strong>代理服务器&lt;/strong>输入下面分享的服务器类型地址端口；有更多的配置方法及详细信息可以参考官方网站。&lt;br>
+&lt;escape>&lt;!-- more -->&lt;/escape>&lt;/p>
+&lt;h1 id="代理服务器分享">代理服务器分享
+&lt;/h1>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">代理模式&lt;/th>
+&lt;th style="text-align: center">服务器&lt;/th>
+&lt;th style="text-align: right">端口&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS&lt;/td>
+&lt;td style="text-align: center">shop.cdn-aliyun.com&lt;/td>
+&lt;td style="text-align: right">443&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS&lt;/td>
+&lt;td style="text-align: center">uup.co.54honxd.club&lt;/td>
+&lt;td style="text-align: right">443&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS&lt;/td>
+&lt;td style="text-align: center">oo.54honxd.club&lt;/td>
+&lt;td style="text-align: right">443&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS&lt;/td>
+&lt;td style="text-align: center">hkbn3.ghelper.net&lt;/td>
+&lt;td style="text-align: right">443&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS&lt;/td>
+&lt;td style="text-align: center">uup.co.54honxd.club&lt;/td>
+&lt;td style="text-align: right">443&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS&lt;/td>
+&lt;td style="text-align: center">bv1.innlym.me&lt;/td>
+&lt;td style="text-align: right">443&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS&lt;/td>
+&lt;td style="text-align: center">bv2.innlym.me&lt;/td>
+&lt;td style="text-align: right">443&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">~~&lt;/td>
+&lt;td style="text-align: center">HTTPS&lt;/td>
+&lt;td style="text-align: right">&lt;a class="link" href="https://www.51netflix.com" target="_blank" rel="noopener"
+>www.51netflix.com&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS&lt;/td>
+&lt;td style="text-align: center">&lt;a class="link" href="https://www.tcpbbr.net" target="_blank" rel="noopener"
+>www.tcpbbr.net&lt;/a>&lt;/td>
+&lt;td style="text-align: right">443&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS&lt;/td>
+&lt;td style="text-align: center">&lt;a class="link" href="https://www.pickdown.net" target="_blank" rel="noopener"
+>www.pickdown.net&lt;/a>&lt;/td>
+&lt;td style="text-align: right">443&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS&lt;/td>
+&lt;td style="text-align: center">stunnel.co&lt;/td>
+&lt;td style="text-align: right">443&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS &lt;a class="link" href="https://www.onhop.net" target="_blank" rel="noopener"
+>www.onhop.net&lt;/a>:443&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS hkt.21t.xyz:443&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS uk.tcpbbr.net:443&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS us.tcpbbr.net:443&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS us.onhop.net:443&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS jp2.tcpbbr.net:443&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS jp1.tcpbbr.net:443&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS ru.onhop.net:443&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS ru.tcpbbr.net:443&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS us1.tcpbbr.net:443&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS us.21t.xyz:443&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS wtt.21t.xyz:443&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS gia.onhop.net:443&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS us2.tcpbbr.net:443&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS &lt;a class="link" href="https://www.copyplay.net" target="_blank" rel="noopener"
+>www.copyplay.net&lt;/a>:443&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS hgc.21t.xyz:443&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS 101.89.134.159:1080&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS 103.43.71.192: 8080&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS 119.29.174.35:1080&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">PTTPS 120.26.136.200: 1080&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS 121.41.102.126:1080&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS 45.77.242.117: 1080&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS 47.52.18.115: 1080&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">HTTPS 47.52.32.253:2016~~&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="注意">注意
+&lt;/h1>&lt;p>{% note success %}&lt;br>
+由于长时间没有更新，几乎所有的代理服务器都已经失效，后续有时间我会继续更新；大家可以使用&lt;a class="link" href="https://pzb568.github.io/2018/11/08/ss%E7%B3%BB%E5%88%97%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB%E5%8F%8A%E4%BD%BF%E7%94%A8/" target="_blank" rel="noopener"
+>ss&lt;/a>或者&lt;a class="link" href="https://pzb568.github.io/2018/11/09/v2ray%E7%9A%84%E4%BD%BF%E7%94%A8%E4%B8%8E%E5%88%86%E4%BA%AB/" title="v2ray"
+target="_blank" rel="noopener"
+>v2ray&lt;/a>这两个我经常在更新。&lt;br>
+{% endnote %}&lt;/p></description></item></channel></rss>

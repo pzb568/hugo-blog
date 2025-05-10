@@ -1,0 +1,1589 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>软件应用 on 风轻云淡</title><link>http://localhost:43401/categories/%E8%BD%AF%E4%BB%B6%E5%BA%94%E7%94%A8/</link><description>Recent content in 软件应用 on 风轻云淡</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>pzb678@criptext.com (彭宅波)</managingEditor><webMaster>pzb678@criptext.com (彭宅波)</webMaster><lastBuildDate>Thu, 26 Nov 2020 12:31:18 +0800</lastBuildDate><atom:link href="http://localhost:43401/categories/%E8%BD%AF%E4%BB%B6%E5%BA%94%E7%94%A8/index.xml" rel="self" type="application/rss+xml"/><item><title>阿里云盘内测申请注册及下载和使用</title><link>http://localhost:43401/2020/11/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98%E5%86%85%E6%B5%8B%E7%94%B3%E8%AF%B7%E6%B3%A8%E5%86%8C%E5%8F%8A%E4%B8%8B%E8%BD%BD%E5%92%8C%E4%BD%BF%E7%94%A8/</link><pubDate>Thu, 26 Nov 2020 12:31:18 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2020/11/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98%E5%86%85%E6%B5%8B%E7%94%B3%E8%AF%B7%E6%B3%A8%E5%86%8C%E5%8F%8A%E4%B8%8B%E8%BD%BD%E5%92%8C%E4%BD%BF%E7%94%A8/</guid><description>&lt;p>  阿里巴巴推出了一款名为 “阿里云网盘”的独立 App。定位为C端用户提供服务，网盘空间更大，下载速度更快；但之后很快这款App就下架了，也许是阿里没有准备好，在经历过几个月的完善之后现在又重新上架了。&lt;/p>
+&lt;p>11月18日消息，阿里云网盘已经上架苹果App Store，并且更名为“阿里云盘”，最新版本为v1.0.1。&lt;/p>
+&lt;p>之前因为一直是邀请制和内测中，所以知道的人并不多，如今更名后的 “阿里云盘”已重新上架。&lt;/p>
+&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/pzb568/blog_filescdn@1.0/mmexport1606383058221.jpg"
+loading="lazy"
+>&lt;/p>
+&lt;p>新上架的网盘有更优质的用户体验，亮点包括更快、更安全、更流畅、更智能，它还支持5G极速下载。同时，阿里云网盘还有企业级的数据安全防护，智能相册、AI分类、轻松找图等功。&lt;/p>
+&lt;p>阿里云盘APP包含了首页、文件、拍摄/上传（文件、相册）、相册，以及个人中心5个主要功能模块,阿里云盘给内测用户的免费存储空间为1TB能够满足大部分人的使用。&lt;br>
+&lt;escape>&lt;!-- more -->&lt;/escape>&lt;/p>
+&lt;h2 id="申请内测码">申请内测码
+&lt;/h2>&lt;p>&lt;a class="link" href="https://www.aliyundrive.com/apply" target="_blank" rel="noopener"
+>https://www.aliyundrive.com/apply&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>这里为大家提供一下我的邀请码&lt;strong>JQQ55J&lt;/strong>&lt;/p>&lt;/blockquote>
+&lt;h2 id="下载应用软件">下载应用软件
+&lt;/h2>&lt;h3 id="安卓">安卓
+&lt;/h3>&lt;p>&lt;a class="link" href="https://qnmlgb.lanzoux.com/iVkO4idnzgf" target="_blank" rel="noopener"
+>https://qnmlgb.lanzoux.com/iVkO4idnzgf&lt;/a>&lt;/p>
+&lt;h3 id="ios">IOS
+&lt;/h3>&lt;p>&lt;a class="link" href="https://apps.apple.com/cn/app/%E9%97%83%E5%9D%97%E5%99%B7%E6%B5%9C%E6%88%A0%E6%B4%8F/id1494661473" target="_blank" rel="noopener"
+>https://apps.apple.com/cn/app/%E9%97%83%E5%9D%97%E5%99%B7%E6%B5%9C%E6%88%A0%E6%B4%8F/id1494661473&lt;/a>&lt;/p></description></item><item><title>批量重命名</title><link>http://localhost:43401/2019/09/%E6%89%B9%E9%87%8F%E9%87%8D%E5%91%BD%E5%90%8D/</link><pubDate>Wed, 25 Sep 2019 11:57:42 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2019/09/%E6%89%B9%E9%87%8F%E9%87%8D%E5%91%BD%E5%90%8D/</guid><description>&lt;p>   经常大量导入或者插入批量图片、视频、音乐等等；文件名太长不方便记忆和输入，使用如下命令直接批量重命名以1开始.扩展名的文件。&lt;/p>
+&lt;blockquote>
+&lt;p>下面是批量重命名mp4，如果修改其他文件，需要修改扩展名。&lt;/p>&lt;/blockquote>
+&lt;p>&lt;escape>&lt;!-- more -->&lt;/escape>&lt;br>
+例如批量重命名mp4 文件&lt;br>
+批量重命名为数字.mp4&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">i=1; for x in *; do mv $x $i.mp4; let i=i+1; done
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>hexo网站permalink设置</title><link>http://localhost:43401/2019/08/hexo%E7%BD%91%E7%AB%99permalink%E8%AE%BE%E7%BD%AE/</link><pubDate>Fri, 09 Aug 2019 23:14:27 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2019/08/hexo%E7%BD%91%E7%AB%99permalink%E8%AE%BE%E7%BD%AE/</guid><description>&lt;p>   网站搭建差不多2年了，没有设置过永久链接，所有的文章都是中文的以至于网站地址特别长，不方便记忆，不美观。利用&lt;strong>hexo-abbrlink&lt;/strong>这个插件可以解决&lt;/p>
+&lt;h1 id="安装hexo-abbrlink">安装hexo-abbrlink
+&lt;/h1>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">npm install hexo-abbrlink --save
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h1 id="站点配置">站点配置
+&lt;/h1>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">permalink: post/:abbrlink.html
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">abbrlink:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> alg: crc32 # 算法：crc16(default) and crc32
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> rep: hex # 进制：dec(default) and hex
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;escape>&lt;!-- more -->&lt;/escape>&lt;/p>
+&lt;h1 id="利用404跳转到主页">利用404跳转到主页
+&lt;/h1>&lt;blockquote>
+&lt;p>由于网址方式了变成百度谷歌抓取的信息是之前网站信息，以至于正常无法方法可以利用404网页使打不开的网页回到主页，当然你需要点击&lt;strong>回我的主页&lt;/strong>。&lt;/p>&lt;/blockquote>
+&lt;h1 id="新建404页面">新建404页面
+&lt;/h1>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">hexo new page 404
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h1 id="编辑404md">编辑404.md
+&lt;/h1>&lt;blockquote>
+&lt;p>添加Front-matter信息&lt;strong>permalink: /404&lt;/strong>并替换自己的网站地址(homePageUrl后面的地址)，下面的网址是腾讯公益信息宝贝回家，寻找失踪儿童的信息。&lt;/p>&lt;/blockquote>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">---
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">title: 404
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">date: 2018-11-08 21:19:51
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">permalink: /404
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">---
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&amp;lt;script type=&amp;#34;text/javascript&amp;#34; src=&amp;#34;//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js&amp;#34; charset=&amp;#34;utf-8&amp;#34; homePageUrl=&amp;#34;https://pzb568.github.io&amp;#34; homePageName=&amp;#34;回到我的主页&amp;#34;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>下面你可以预览一下&lt;br>
+&lt;a class="link" href="https://pzb568.github.io/2018/11/09/v2ray%E7%9A%84%E4%BD%BF%E7%94%A8%E4%B8%8E%E5%88%86%E4%BA%AB/" target="_blank" rel="noopener"
+>https://pzb568.github.io/2018/11/09/v2ray%E7%9A%84%E4%BD%BF%E7%94%A8%E4%B8%8E%E5%88%86%E4%BA%AB/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>由于网站地址方式了变化，之前valine的数据地址不一样，所以所有的评论信息都会消失，请谨慎选择。&lt;/p>&lt;/blockquote></description></item><item><title>hexo博客加密设置</title><link>http://localhost:43401/2019/07/hexo%E5%8D%9A%E5%AE%A2%E5%8A%A0%E5%AF%86%E8%AE%BE%E7%BD%AE/</link><pubDate>Fri, 05 Jul 2019 02:31:41 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2019/07/hexo%E5%8D%9A%E5%AE%A2%E5%8A%A0%E5%AF%86%E8%AE%BE%E7%BD%AE/</guid><description>&lt;p>   在添加 Hexo 博客 加密功能的模块有2个，一个是hexo-blog-encrypt，另一个是hexo-encrypt。可任选一个。&lt;/p>
+&lt;h1 id="hexo-blog-encrypt插件">hexo-blog-encrypt插件
+&lt;/h1>&lt;h2 id="安装hexo-blog-encrypt插件">安装hexo-blog-encrypt插件
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">npm install --save hexo-blog-encrypt
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="配置启用插件">配置启用插件
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"># Security
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">encrypt: # hexo-blog-encrypt
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> enable: true
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="加密文章">加密文章
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"> ---
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">title: Hello World
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">date: 2016-03-30 21:18:02
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">password: 123456 #密码
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">abstract: Something was encrypted, please enter password to read. #摘要
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">message: Welcome to my blog, enter password to read. # 描述性文字
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">---
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;escape>&lt;!-- more -->&lt;/escape>&lt;/p>
+&lt;h1 id="hexo-encrypt插件">hexo-encrypt插件
+&lt;/h1>&lt;h2 id="安装">安装
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">npm install hexo-encrypt --save
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="博客设置_configyml添加">博客设置**_config.yml**添加
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"># encrypt
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> encrypt:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> pwdfile: encrypt_password
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="在需要加密的文章上添加">在需要加密的文章上添加
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">---
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">title: hexo博客加密设置
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">tags:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - 加密模板
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">categories:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - hexo加密
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">comments: true
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mathjax: false
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">date: 2019-07-05 02:31:41
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">encrypt: true
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">enc_pwd: 123456 #设置的密码
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">---
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>hexo主题更新问题处理</title><link>http://localhost:43401/2019/07/hexo%E4%B8%BB%E9%A2%98%E6%9B%B4%E6%96%B0%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/</link><pubDate>Thu, 04 Jul 2019 19:56:20 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2019/07/hexo%E4%B8%BB%E9%A2%98%E6%9B%B4%E6%96%B0%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/</guid><description>&lt;p>   由于next主题经常更新，自己又在本地大量修改主题，更新中会有很多问题，经过很多次折腾及网络上其他朋友的教程，我找到了不错的处理方法。&lt;/p>
+&lt;ol>
+&lt;li>进入主题目录并更新&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">cd themes/next
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git pull
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>因为修改了很多的配置项目，所以更新失败了&lt;br>
+&lt;escape>&lt;!-- more -->&lt;/escape>&lt;br>
+2. 将修改储藏到暂存区&lt;br>
+我们可以通过&lt;code>git stash&lt;/code>这句命令将对主题文件的修改储存到本地的暂存区：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git stash
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="3">
+&lt;li>执行更新&lt;br>
+我们现在需要再次使用 git pull 命令来获取最新的主题文件，别担心，这次不会再有上面的错误了&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git pull
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="4">
+&lt;li>从暂存区取出修改&lt;br>
+我们现在要通过执行 &lt;strong>git stash pop&lt;/strong> 这句命令来从暂存区取出修改。&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git stash pop
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>如果报错如下内容需要进入提示的文件修改&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">$ git stash pop
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Auto-merging _config.yml
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">CONFLICT (content): Merge conflict in _config.yml
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="5">
+&lt;li>进入文件&lt;br>
+可以看到文中&amp;laquo;&amp;laquo;&amp;laquo;HEAD，=======中间是上游分支，======，&amp;raquo;&amp;raquo;&amp;raquo;b8e436中间是你自己的分支，删掉一个就可以了&lt;/li>
+&lt;li>提交记录&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git add _config.yml
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git commit -m &amp;#34;冲突处理&amp;#34;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="7">
+&lt;li>在更新&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git pull
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>主题升级成功。&lt;/p></description></item><item><title>hexo开启Mathjax语法渲染配置折腾记</title><link>http://localhost:43401/2019/04/hexo%E5%BC%80%E5%90%AFmathjax%E8%AF%AD%E6%B3%95%E6%B8%B2%E6%9F%93%E9%85%8D%E7%BD%AE%E6%8A%98%E8%85%BE%E8%AE%B0/</link><pubDate>Tue, 30 Apr 2019 23:25:52 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2019/04/hexo%E5%BC%80%E5%90%AFmathjax%E8%AF%AD%E6%B3%95%E6%B8%B2%E6%9F%93%E9%85%8D%E7%BD%AE%E6%8A%98%E8%85%BE%E8%AE%B0/</guid><description>&lt;h1 id="mathjax介绍">Mathjax介绍
+&lt;/h1>&lt;p>   hexo默认的渲染器是marked，并不支持mathjax。kramed是在marked基础上修改的，支持了mathjax。在的hexo工程目录下的node_modules中可以找到对应的渲染器文件夹。同时在你的工程目录下用以下命令安装kramed。另外补充一个NexT配置中推荐的渲染器hexo-renderer-pandoc，功能很强大不仅可以渲染markdown，还支持textile、reStructedText等许多其他格式&lt;/p>
+&lt;h1 id="安装渲染器">安装渲染器
+&lt;/h1>&lt;h2 id="卸载默认渲染器">卸载默认渲染器
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">npm uninstall hexo-renderer-marked --save
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="安装修改kramed渲染器">安装修改kramed渲染器
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">npm install hexo-renderer-kramed --save
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>或者&lt;code>npm install hexo-renderer-pandoc --save&lt;/code>如果是在安卓手机termux里面部署网站这个插件不能使用，因为必装&lt;code>pandoc&lt;/code>，termux安装pandoc不成功。&lt;/p>
+&lt;h1 id="安装hexo-renderer-mathjax插件">安装&lt;strong>hexo-renderer-mathjax&lt;/strong>插件
+&lt;/h1>&lt;p>如果安装了hexo-math插件，需要卸载再安装。&lt;/p>
+&lt;h2 id="卸载hexo-math插件">卸载hexo-math插件
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">npm uninstall hexo-math --save
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="安装">安装
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">npm install hexo-renderer-mathjax --save
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="cdn加速">CDN加速
+&lt;/h2>&lt;blockquote>
+&lt;p>更新mathjax的CDN链接，打开node_modules/hexo-renderer-mathjax/mathjax.html&lt;/p>&lt;/blockquote>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">&amp;lt;script src=&amp;#34;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML&amp;#34;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h1 id="主题配置">主题配置
+&lt;/h1>&lt;p>math:&lt;br>
+enable: true #开启&lt;/p>
+&lt;p>engine: mathjax 取消注释&lt;/p>
+&lt;h1 id="文章front-matter中开启mathjax">文章Front-matter中开启mathjax
+&lt;/h1>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">---
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">title:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">category:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">date:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mathjax: true #开启后才会渲染数学公式
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">---
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;escape>&lt;!-- more -->&lt;/escape>&lt;/p>
+&lt;h1 id="测试">测试
+&lt;/h1>&lt;p>下面来测试一下&lt;/p>
+&lt;p>##麦克斯韦方程组&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">\begin{eqnarray}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">\nabla\cdot\vec{E} &amp;amp;=&amp;amp; \frac{\rho}{\epsilon_0} \\
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">\nabla\cdot\vec{B} &amp;amp;=&amp;amp; 0 \\
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">\nabla\times\vec{E} &amp;amp;=&amp;amp; -\frac{\partial B}{\partial t} \\
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">\nabla\times\vec{B} &amp;amp;=&amp;amp; \mu_0\left(\vec{J}+\epsilon_0\frac{\partial E}{\partial t} \right)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">\end{eqnarray}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>$$&lt;br>
+\begin{eqnarray}&lt;br>
+\nabla\cdot\vec{E} &amp;amp;=&amp;amp; \frac{\rho}{\epsilon_0} \&lt;br>
+\nabla\cdot\vec{B} &amp;amp;=&amp;amp; 0 \&lt;br>
+\nabla\times\vec{E} &amp;amp;=&amp;amp; -\frac{\partial B}{\partial t} \&lt;br>
+\nabla\times\vec{B} &amp;amp;=&amp;amp; \mu_0\left(\vec{J}+\epsilon_0\frac{\partial E}{\partial t} \right)&lt;br>
+\end{eqnarray}&lt;br>
+$$&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">$$\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.$$
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>$$\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt,.$$&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">\frac{\partial u}{\partial t} = h^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>$$&lt;br>
+\frac{\partial u}{\partial t} = h^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right)&lt;br>
+$$&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"> $$
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">f(n)=\begin{cases}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">n/2, &amp;amp; \text{如果$ x&amp;lt;=2 $}\\
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">3n+1, &amp;amp; \text{如果$ x&amp;gt;2 $}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">\end{cases}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>$$ &lt;br>
+f(n)=\begin{cases}&lt;br>
+n/2, &amp;amp; \text{如果$ x&amp;lt;=2 $}\&lt;br>
+3n+1, &amp;amp; \text{如果$ x&amp;gt;2 $}&lt;br>
+\end{cases}&lt;br>
+$$&lt;/p>
+&lt;h2 id="标题latex特性测试">标题Latex特性测试
+&lt;/h2>&lt;ol>
+&lt;li>Setext 形式&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">H1
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">====
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">H2
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">----
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h1 id="h1">H1
+&lt;/h1>&lt;h2 id="h2">H2
+&lt;/h2>&lt;p>= 和 - 的数量是没有限制的。通常的做法是使其和标题文本的长度相同，这样看起来比较舒服。或者可以像我一样，用四个 - 或 =。&lt;br>
+Setext 形式只支持 h1 和 h2 两种标题。&lt;/p>
+&lt;ol start="2">
+&lt;li>atx 形式&lt;br>
+#####① 可以用对称的 # 包括文本：#####&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">####H4####
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">#####H5#####
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>####H4####&lt;/p>
+&lt;p>#####H5#####&lt;/p>
+&lt;h5 id="-也可以只在左边使用-">② 也可以只在左边使用 #：
+&lt;/h5>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">####H4
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">#####H5
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>####H4&lt;/p>
+&lt;p>#####H5&lt;/p>
+&lt;p>③ 成对的 # 左侧和只在左边使用的 # 左侧都不可以有任何空白，但其内侧可以使用空白。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"> ###左侧使用了空格###
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">#### 内侧使用了空格
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>###左侧使用了空格###&lt;/p>
+&lt;h4 id="内侧使用了空格">内侧使用了空格
+&lt;/h4></description></item><item><title>使用termux搭建wordpress网站</title><link>http://localhost:43401/2018/12/%E4%BD%BF%E7%94%A8termux%E6%90%AD%E5%BB%BAwordpress%E7%BD%91%E7%AB%99/</link><pubDate>Sat, 08 Dec 2018 17:03:19 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2018/12/%E4%BD%BF%E7%94%A8termux%E6%90%AD%E5%BB%BAwordpress%E7%BD%91%E7%AB%99/</guid><description>&lt;h1 id="wordpress介绍">wordpress介绍
+&lt;/h1>&lt;p>   WordPress 是一种使用 PHP 语言和 MySQL 数据库开发的开源、免费的 Blog（博客，网志）引擎，用户可以在支持 PHP，MySQL 数据库的服务器上建立自己的 Blog。&lt;/p>
+&lt;h2 id="lnmp方案">LNMP方案
+&lt;/h2>&lt;p>Linux nginx mysql php&lt;/p>
+&lt;h1 id="安装配置数据库mysql">安装配置数据库MYSQL
+&lt;/h1>&lt;p>MariaDB 数据库管理系统是 MySQL 的一个分支，主要由开源社区在维护，采用 GPL 授权许可。开发这个分支的原因之一是：甲骨文公司收购了 MySQL 后，有将 MySQL 闭源的潜在风险，因此社区采用分支的方式来避开这个风险。&lt;/p>
+&lt;ol>
+&lt;li>安装 mariadb&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">pkg install mariadb
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>~~2. 安装基本数据&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">mysql_install_db
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="3">
+&lt;li>启动 mariadb 服务修改密码后续使用必须开启后台服务否则报错。&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">mysqld
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>如果提示错误没有my.cnf.d文件夹下面创建创建文件夹&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">mkdir $PREFIX/etc/my.cnf.d
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>需要在次初始化数据库&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">mysql_install_db
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>直接mysqld退出后必须重新启动才能使用，可以通过tmux来管理就不需要重启了&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">tmux new -s mysql
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>启动数据库服务器&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">mysqld
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>4.打开一个新窗口修改密码&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">mysql_secure_installation
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>输入当前输入密码&lt;br>
+因为是空密码, 这里默认 回车&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Enter current password for root (enter for none):
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>设置新密码&lt;br>
+这里设置新的root密码&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Set root password? [Y/n] y
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">New password:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Re-enter new password:
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>其他设置下面根据个人偏好来进行设置,没有绝对的要求&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="n">Remove&lt;/span> &lt;span class="n">anonymous&lt;/span> &lt;span class="n">users&lt;/span>&lt;span class="err">?&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="n">Y&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">n&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="n">Y&lt;/span> &lt;span class="c1">#是否移除匿名用户&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">Disallow&lt;/span> &lt;span class="n">root&lt;/span> &lt;span class="n">login&lt;/span> &lt;span class="n">remotely&lt;/span>&lt;span class="err">?&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="n">Y&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">n&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="n">n&lt;/span> &lt;span class="c1">#是否不允许root远程登录&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">Remove&lt;/span> &lt;span class="n">test&lt;/span> &lt;span class="n">database&lt;/span> &lt;span class="ow">and&lt;/span> &lt;span class="n">access&lt;/span> &lt;span class="n">to&lt;/span> &lt;span class="n">it&lt;/span>&lt;span class="err">?&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="n">Y&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">n&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="n">n&lt;/span> &lt;span class="c1">#是否移除test数据库&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">Reload&lt;/span> &lt;span class="n">privilege&lt;/span> &lt;span class="n">tables&lt;/span> &lt;span class="n">now&lt;/span>&lt;span class="err">?&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="n">Y&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">n&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="n">y&lt;/span> &lt;span class="c1">#是否重新加载表的权限&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>~~&lt;br>
+2. 修改数据库密码&lt;/p>
+&lt;blockquote>
+&lt;p>新版本升级修改密码有了一些变化，具体信息访问&lt;a class="link" href="" >termux wiki&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;h1 id="安装php">安装PHP
+&lt;/h1>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">pkg install php
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;escape>&lt;!-- more -->&lt;/escape>&lt;/p>
+&lt;h1 id="配置wordpres">配置WordPres
+&lt;/h1>&lt;ol>
+&lt;li>新建数据库 提示下面*就是之前设置的密码&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">mysql -uroot -p*** -e&amp;#34;create database wordpress;show databases;&amp;#34;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="2">
+&lt;li>下载解压 wordpress&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">wget https://cn.wordpress.org/wordpress-5.0.3-zh_CN.tar.gz
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">tar -zxvf wordpress-5.0.3-zh_CN.tar.gz
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="3">
+&lt;li>进入wordpress文件夹&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">cd wordpress
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="4">
+&lt;li>配置wp -config&lt;br>
+图下是设置需要修改数据库名用户名和密码&lt;br>
+&lt;img src="http://localhost:43401/01.jpg"
+loading="lazy"
+>&lt;/li>
+&lt;li>浏览器输入172.0.0.1:9000登录&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">php -S 127.0.0.1:9000
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>设置配置文件用户名密码&lt;br>
+&lt;img src="https://i.bmp.ovh/imgs/2019/02/b961fded72875694.jpg"
+loading="lazy"
+>&lt;br>
+然后配置网站标题用户名密码登录，详细内容这里就不做演示了。&lt;/p>
+&lt;h1 id="安装nginx">安装nginx
+&lt;/h1>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">pkg install nginx
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h1 id="安装模拟root环境">安装模拟root环境
+&lt;/h1>&lt;p>由于termux的特殊性，nginx和php-fpm的修改都必须在模拟root环境下，才能成功。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">pkg install proot
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="进入模拟root模式">进入模拟root模式
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">termux-chroot
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h1 id="修改nginx">修改nginx
+&lt;/h1>&lt;blockquote>
+&lt;p>termux必须就模拟root环境下修改配置，找到下面两部分，只需要修改如下两部分就可以了，&lt;strong>非常重要的是一定要取消注释(删除前面的#号希望可以帮到小白用户)&lt;/strong>&lt;/p>&lt;/blockquote>
+&lt;p>第一部分&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">server {
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> listen 8080;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> server_name localhost;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> #charset koi8-r;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> #access_log logs/host.access.log main;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> location / {
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> root /data/data/com.termux/files/home/wordpress;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> index index.html index.htm index.php;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>第二部分&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">location ~ \.php$ {
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> root html;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> fastcgi_pass 127.0.0.1:9000;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> fastcgi_index index.php;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> fastcgi_param SCRIPT_FILENAME /data/data/com.termux/files/home/wordpress$fastcgi_script_name;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> include fastcgi_params;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> }
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h1 id="安装php-fpm">安装php-fpm
+&lt;/h1>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">pkg install php-fpm
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>修改必须在模拟root环境中修改&lt;br>
+[返回进入模拟root环境](### 安装模拟root)&lt;/p>
+&lt;h2 id="4-修改php-fpm">4. 修改php-fpm
+&lt;/h2>&lt;h3 id="查找">查找
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="n">listen&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="o">/&lt;/span>&lt;span class="n">data&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">data&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">com&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">termux&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">files&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">usr&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="k">var&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">run&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">php&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">fpm&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">sock&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="修改">修改
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">listen = 127.0.0.1:9000
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="启动测试">启动测试
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">termux-chroot
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">php-fpm
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>如果没有报错就没有问题，跳过下面步骤；有报错继续向下看。&lt;/p>
+&lt;h3 id="问题处理">问题处理
+&lt;/h3>&lt;blockquote>
+&lt;p>如果如下报错，可以说如果不修改一定有报错，这个问题困扰了我好久，通过搜索反复测试，最终解决。&lt;/p>&lt;/blockquote>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">[07-Jul-2019 00:22:28] NOTICE: [pool www] &amp;#39;user&amp;#39; directive is ignored when FPM is not running as root
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[07-Jul-2019 00:22:28] NOTICE: [pool www] &amp;#39;group&amp;#39; directive is ignored when FPM is not running as root
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[07-Jul-2019 00:22:28] ERROR: unable to bind listening socket for address &amp;#39;127.0.0.1:9999&amp;#39;: Address already in use (98)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[07-Jul-2019 00:22:28] ERROR: FPM initialization failed
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>解决办法是在&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">user = nobody
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">group = nobody
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>前面加上分号&lt;strong>当然是英文模式下输入&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">;user = nobody
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">;group = nobody
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>OK😊问题解决&lt;/p>
+&lt;h2 id="5-启动">5. 启动
+&lt;/h2>&lt;h2 id="启动数据库服务器">启动数据库服务器
+&lt;/h2>&lt;h2 id="新建一个mysql服务">新建一个MYSQL服务
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">tmux new -s MYSQL
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="启动">启动
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">mysqld
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="在新窗口进入模拟人root模式">在新窗口进入模拟人root模式
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">termux-chroot
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="3-启动nginx和php-fpm">3. 启动nginx和php-fpm
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">php-fpm
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">nginx
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="进入安装界面">进入安装界面
+&lt;/h2>&lt;p>在浏览器输入如下地址进入安装界面&lt;/p>
+&lt;p>http://127.0.0.1:8080/wp-admin/setup-config.php&lt;/p>
+&lt;h2 id="lcmp方案">LCMP方案
+&lt;/h2>&lt;h1 id="安装caddy">安装caddy
+&lt;/h1>&lt;blockquote>
+&lt;p>caddy是go语言编写的服务器程序，以高效简捷著称；配置简单易用性强。&lt;/p>&lt;/blockquote>
+&lt;p>caddy官方网站:https://caddyserver.com/&lt;br>
+脚本安装caddy&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">curl https://getcaddy.com | bash -s personal
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>配置caddy配置文件Caddyfile&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">vim Caddyfile
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>按i输入如下配置&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"># WordPress
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">:8080 {
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">#tls admin@example.com
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">root /data/data/com.termux/files/home/wordpress
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">gzip
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">fastcgi / 127.0.0.1:9000 php
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> rewrite {
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> if {path} not_match ^\/wp-admin
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> to {path} {path}/ /index.php?_url={uri}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> }
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h1 id="安装mysql">安装mysql
+&lt;/h1>&lt;p>[返回数据库安装](# 安装配置数据库MYSQL)&lt;/p>
+&lt;h1 id="安装php-fpm-1">安装php-fpm
+&lt;/h1>&lt;blockquote>
+&lt;p>php-fpm配置和之前相同。&lt;/p>&lt;/blockquote>
+&lt;p>[返回查看php-fpm配置](# 安装php-fpm)&lt;/p>
+&lt;h1 id="安装php-1">安装php
+&lt;/h1>&lt;p>[返回php安装](# 安装PHP)&lt;/p>
+&lt;h1 id="wordpres配置">WordPres配置
+&lt;/h1>&lt;p>[返回WordPres配置](# 配置WordPres)&lt;/p>
+&lt;h1 id="启动-1">启动
+&lt;/h1>&lt;h2 id="启动数据库">启动数据库
+&lt;/h2>&lt;p>[返回启动数据库](# 启动数据库服务器)&lt;/p>
+&lt;h2 id="启动caddy">启动caddy
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">caddy
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>进入模拟root模式&lt;/p>
+&lt;p>[返回进入模拟root模式](# 安装模拟root环境)&lt;br>
+在模拟root模式下启动php-fpm&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">php-fpm
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h1 id="进入安装界面-1">进入安装界面
+&lt;/h1>&lt;p>http://127.0.0.1:8080/wp-admin/setup-config.php&lt;/p></description></item><item><title>hexo博客的搭建与备份</title><link>http://localhost:43401/2018/11/hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%A4%87%E4%BB%BD/</link><pubDate>Sun, 11 Nov 2018 11:17:48 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2018/11/hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%A4%87%E4%BB%BD/</guid><description>&lt;h1 id="一搭建">一、搭建
+&lt;/h1>&lt;p>====&lt;br>
+   Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。hexo 博客在Linux系统中搭建是非常简单的，在WIN系统中比较复杂，我们接触的手机📱永远要比电脑的时间要多那么我们可以在安卓手机上使用termux来搭建，这样随时随地都可以写做和发表文章。&lt;/p>
+&lt;h2 id="1-下载termux">1. 下载termux##
+&lt;/h2>&lt;ol>
+&lt;li>下载termux可以在谷歌商店里面下载，但是想要进入谷歌商店需要翻墙，想了解翻墙教程可以去看一下我之前的文章&lt;a class="link" href="https://pzb568.github.io/2018/11/08/ss%E7%B3%BB%E5%88%97%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB%E5%8F%8A%E4%BD%BF%E7%94%A8/" target="_blank" rel="noopener"
+>ss系列软件分享及使用&lt;/a> &lt;a class="link" href="https://pzb568.github.io/2018/11/09/v2ray%E7%9A%84%E4%BD%BF%E7%94%A8%E4%B8%8E%E5%88%86%E4%BA%AB/" target="_blank" rel="noopener"
+>v2ray的使用与分享&lt;/a>或者直接下载网盘分享的termux。 点击&lt;a class="link" href="https://www.lanzous.com/i4935gh" target="_blank" rel="noopener"
+>下载&lt;/a>&lt;/li>
+&lt;li>进入并更新termux，第一次进入需要等几分钟出现命令界面然后输入&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">pkg update
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>如果感觉键位太少可以看之前的文章&lt;a class="link" href="https://pzb568.github.io/2019/02/26/termux0.66%E6%B7%BB%E5%8A%A0%E5%B8%B8%E7%94%A8%E6%8C%89%E9%94%AE/" target="_blank" rel="noopener"
+>修改添加常用键&lt;/a>&lt;/p>
+&lt;h2 id="2-安装必须组件和hexo">2. 安装必须组件和hexo
+&lt;/h2>&lt;ol>
+&lt;li>安装 nodejs git openssh必须软件&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">pkg install nodejs git openssh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="2">
+&lt;li>安装hexo&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">npm install hexo-cli -g
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="3">
+&lt;li>初始化新建一个叫blog的文件夹&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">hexo init blog
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="4">
+&lt;li>进入blog文件夹&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">cd blog
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="5">
+&lt;li>安装npm 核心组件支持&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">npm install
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="3-下载主题并配置">3. 下载主题并配置
+&lt;/h2>&lt;ol>
+&lt;li>下载主题，hexo的主题非常丰富可以去&lt;a class="link" href="https://hexo.io/themes/" target="_blank" rel="noopener"
+>官方主题&lt;/a>下载；下面有演示我使用的主题&lt;a class="link" href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener"
+>next&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git clone https://github.com/theme-next/hexo-theme-next themes/next
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="2">
+&lt;li>在站点配置文件_config.yml开启next主题可以下载&lt;a class="link" href="https://www.lanzous.com/i3w2y0b" target="_blank" rel="noopener"
+>quickedit&lt;/a>来编辑打开位于/data/data/com.termux/files/home/blog文件夹下_config.yml文件查找**theme:**修改theme: 空格next。具体的站点和主题信息配置请自行去&lt;a class="link" href="https://hexo.io/zh-cn/" target="_blank" rel="noopener"
+>hexo&lt;/a>和&lt;a class="link" href="http://theme-next.iissnan.com/" target="_blank" rel="noopener"
+>next主题&lt;/a>文档查看&lt;/li>
+&lt;li>启动本地服务器查看&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">hexo server
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="4--配置ssh密钥及github或者gitee部署">4 . 配置ssh密钥及github或者gitee部署##
+&lt;/h2>&lt;ol>
+&lt;li>先成&lt;strong>ssh-keygen&lt;/strong>密钥&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">ssh-keygen
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="2">
+&lt;li>注册&lt;a class="link" href="www.gitee.com" >gitee&lt;/a>或者&lt;a class="link" href="www.github.com" >github&lt;/a>帐号并新建一分项目。gitee项目名即是网站域名部署成功后需要开启gitee page；github项目名为用户名.github.io部署成功后https://用户名.github.io会自动生命github page。&lt;/li>
+&lt;li>复制ssh公钥到新建的&lt;a class="link" href="www.gitee.com" >gitee&lt;/a>或者&lt;a class="link" href="www.github.com" >github&lt;/a>帐号的设置里面ssh密钥并保存。&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">cat .ssh/id_rsa.pub
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="4">
+&lt;li>验证ssh是否连接成功&lt;/li>
+&lt;li>gitee帐号验证&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">ssh -T git@gitee.com
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="2">
+&lt;li>github账号验证&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">ssh -T git@github.com
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="5-生成及部署">5. 生成及部署
+&lt;/h2>&lt;ol>
+&lt;li>清理缓存&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">hexo clean
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="2">
+&lt;li>生成&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">hexo generate
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="3">
+&lt;li>部署&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">hexo deploy
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>可以简化一步执行&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">hexo clean &amp;amp;&amp;amp; hexo g -d
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h1 id="二备份">二、备份
+&lt;/h1>&lt;p>经常在多个平台写博客，或者经常重新安装统、在安卓手机termux里面使用hexo经常刷机，会导致博客及配置文件的的丢失，我的这个博客也丢失了很多次了，最后我想了个办法利用github来备份博客的文件和数据，这样博客的文件和数据永远不会弃失，并且还可以在多个平台同时发布文章。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>在github新建一个叫blog的仓库&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在本地博客文件夹创建git版本库，如果有安装git必须先安装git&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>安卓termux 安装git&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">pkg install git
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="2">
+&lt;li>Ubuntu安装git&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">apt install git
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="3">
+&lt;li>archLinux安装git&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">pacman -S git
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="3">
+&lt;li>进入需要备份blog目录&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">cd ~
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">cd blog
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="4">
+&lt;li>创建版本库&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git init
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;escape>&lt;!-- more -->&lt;/escape>&lt;br>
+这个时候blog的版本库已经创建好了。&lt;br>
+验证是否成功，如果有一个.git的隐藏文件就说明创建成功。&lt;br>
+查看隐藏文件&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">ls -a
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="5">
+&lt;li>在github 或者gitee创建项目仓库&lt;/li>
+&lt;li>连接上面github创建的仓库&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git remote add origin git@github.com:you name/blog.git
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="7">
+&lt;li>添加备份文件source/ themes/ _config.yml scaffolds/ package.json .gitignore 这些文件需要备份&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git add source/ themes/ _config.yml scaffolds/ package.json .gitignore
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="8">
+&lt;li>注释备份内容，明确的注释可以回退版本&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git commit -m &amp;#34;博客备份&amp;#34;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="9">
+&lt;li>第一次强制上传文件到github仓库&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git push -u origin master
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>这样博客就备份成功了，之后备份直接前面3 `4步，第5部直接使用下面命令就可以了&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git push origin master
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h1 id="三恢复">三、恢复
+&lt;/h1>&lt;h2 id="1-安装博客必要组件">1. 安装博客必要组件
+&lt;/h2>&lt;ol>
+&lt;li>安装coreutils&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">pkg install coreutils
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="2">
+&lt;li>安装git&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">pkg install git
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="3">
+&lt;li>安装node.js&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">pkg install nodejs
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="4">
+&lt;li>安装hexo&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">npm install hexo-cli -g
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="2-git-clone自己备份的博客源代码克隆备份的bolg源文件地址是你自己的地址这里不做演示">2. git clone自己备份的博客源代码克隆备份的bolg源文件地址是你自己的地址这里不做演示
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git clone &amp;lt;版本库的网址&amp;gt; &amp;lt;本地目录名&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol>
+&lt;li>进入bolg文件夹并安装hexo&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">cd bolg
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">npm install hexo-cli -g
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="2">
+&lt;li>安装npm 组件&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">npm install
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="3-安装插件">3. 安装插件
+&lt;/h2>&lt;ol>
+&lt;li>安装deployer-git&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">npm install hexo-deployer-git --save
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="2">
+&lt;li>安装搜索功能插件&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">npm install hexo-generator-searchdb --save
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="3">
+&lt;li>安装Valine评论系统&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">npm install valine --save
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="4">
+&lt;li>文字统计插件&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">npm install hexo-symbols-count-time --save
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="5">
+&lt;li>音乐插件&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">npm install --save hexo-tag-aplayer
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="6">
+&lt;li>视频插件&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">npm install hexo-tag-dplayer --save
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>搞定希望这个教程对你有所帮助。&lt;/p></description></item><item><title>termux安装使用you-get下载视频</title><link>http://localhost:43401/2018/11/termux%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8you-get%E4%B8%8B%E8%BD%BD%E8%A7%86%E9%A2%91/</link><pubDate>Sat, 10 Nov 2018 12:49:14 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2018/11/termux%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8you-get%E4%B8%8B%E8%BD%BD%E8%A7%86%E9%A2%91/</guid><description>&lt;h1 id="you-get简单介绍">You-Get简单介绍
+&lt;/h1>&lt;p>   &lt;a class="link" href="https://github.com/soimort/you-get/wiki/%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E" target="_blank" rel="noopener"
+>you-get&lt;/a>是一个基于 Python 3 的下载工具。使用 You-Get 可以很轻松的下载到网络上的视频、图片及音乐。&lt;/p>
+&lt;h1 id="一安裝">一、安裝
+&lt;/h1>&lt;hr>
+&lt;h2 id="1更新">1.更新
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">pkg update &amp;amp;&amp;amp; pkg upgrade
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="2获取sd卡读写权限">2.获取SD卡读写权限
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">termux-setup-storage
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="3安装python-ffmpeg">3.安装python ffmpeg##
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">pkg install python ffmpeg
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="4-__升级__版本-pip版本">4. __升级__版本 pip版本
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">python -m pip install --upgrade pip
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="4-安装you-get">4. 安装you-get
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">pip install you-get
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="5-更新you-get">5. 更新you-get
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">pip install --upgrade you-get
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="">&lt;escape>&lt;!-- more -->&lt;/escape>
+&lt;/h2>&lt;h1 id="二you-get使用">二、you-get使用
+&lt;/h1>&lt;p>查看**版本 **&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">you-get -V
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>查看__视频信息 __&lt;br>
+下面我测试一下西虹市首富&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">you-get -i http://m.iqiyi.com/v_19rrf2nw1g.html
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;img src="http://localhost:43401/01.jpg"
+loading="lazy"
+>&lt;/p>
+&lt;p>&lt;strong>解析&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">you-get -u http://m.iqiyi.com/v_19rrf2nw1g.html
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;img src="http://localhost:43401/02.jpg"
+loading="lazy"
+>&lt;br>
+**下载 **&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">you-get -o /sdcard/video/ http://m.iqiyi.com/v_19rrf2nw1g.html
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;img src="http://localhost:43401/03.jpg"
+loading="lazy"
+>&lt;br>
+you-get的功能非常的多，如果你想了解you-get的所以使用方法可以去github &lt;a class="link" href="https://github.com/soimort/you-get/wiki/%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E" target="_blank" rel="noopener"
+>you-get&lt;/a> 项目里面查看，里面有详细使用方法，这里就简单的介绍到这里了。&lt;br>
+下面附一个网上简单的视频，有助于更快更简单的使用you-get。&lt;/p>
+&lt;iframe src="//player.bilibili.com/player.html?aid=24822266&amp;cid=41834559&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> &lt;/iframe></description></item></channel></rss>

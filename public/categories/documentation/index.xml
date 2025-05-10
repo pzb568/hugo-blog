@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Documentation on 风轻云淡</title><link>http://localhost:43401/categories/documentation/</link><description>Recent content in Documentation on 风轻云淡</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>pzb678@criptext.com (彭宅波)</managingEditor><webMaster>pzb678@criptext.com (彭宅波)</webMaster><lastBuildDate>Wed, 02 Nov 2022 07:53:41 +0000</lastBuildDate><atom:link href="http://localhost:43401/categories/documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>iphone手机ISHshell使用记录</title><link>http://localhost:43401/2022/11/iphone%E6%89%8B%E6%9C%BAishshell%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</link><pubDate>Wed, 02 Nov 2022 07:53:41 +0000</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2022/11/iphone%E6%89%8B%E6%9C%BAishshell%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</guid><description>&lt;p>&lt;img src="https://ish.app/assets/github-readme.png"
+loading="lazy"
+>&lt;/p>
+&lt;p>  iSH 是一个运行在 iOS 上的 Linux shell。使用了 x86 用户模式仿真和系统调用翻译转换。iSH使用的Linux系统镜像是&lt;a class="link" href="https://alpinelinux.org/" target="_blank" rel="noopener"
+>Alpine Linux&lt;/a>,想了解详细信息，请访问链接地址。&lt;/p>
+&lt;h2 id="安装ish-shell">安装ISH shell
+&lt;/h2>&lt;blockquote>
+&lt;p>软件直接在链接下载&lt;a class="link" href="https://apps.apple.com/us/app/ish-shell/id1436902243" target="_blank" rel="noopener"
+>app store&lt;/a>。&lt;/p>&lt;/blockquote>
+&lt;h2 id="使用">使用
+&lt;/h2>&lt;blockquote>
+&lt;p>安装必要软件(ish包管理命令是[^apk][^apk]: 输入&amp;rsquo;apk&amp;rsquo;了解详细命令)&lt;/p>&lt;/blockquote>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">apk add vim git openssh python zsh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="更换源">更换源
+&lt;/h3>&lt;blockquote>
+&lt;p>以下命令直接更换清华源&lt;/p>&lt;/blockquote>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sed -i &amp;#39;s/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g&amp;#39; /etc/apk/repositories
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="修改git限制和拉取失败问题">修改git限制和拉取失败问题
+&lt;/h3>&lt;blockquote>
+&lt;p>因为git默认的 http.postBuffer大小为1M。所以clone较大的文件时偶尔会失败，上面的命令是将git的http.postBuffer大小设置为500M。&lt;/p>&lt;/blockquote>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git config --global http.postBuffer 524288000
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;blockquote>
+&lt;p>git拉取失败问题&lt;/p>&lt;/blockquote>
+&lt;p>&lt;img src="https://user-images.githubusercontent.com/44852729/110248063-1ef73600-7f24-11eb-9e2c-1f090bbe8f02.jpeg"
+loading="lazy"
+>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git config —global pack.threads “1”
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>搭建Hugo站使用netlify动部署网站</title><link>http://localhost:43401/2022/09/%E6%90%AD%E5%BB%BAhugo%E7%AB%99%E4%BD%BF%E7%94%A8netlify%E5%8A%A8%E9%83%A8%E7%BD%B2%E7%BD%91%E7%AB%99/</link><pubDate>Thu, 29 Sep 2022 14:17:53 +0000</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2022/09/%E6%90%AD%E5%BB%BAhugo%E7%AB%99%E4%BD%BF%E7%94%A8netlify%E5%8A%A8%E9%83%A8%E7%BD%B2%E7%BD%91%E7%AB%99/</guid><description>&lt;p>&lt;img src="https://raw.githubusercontent.com/gohugoio/gohugoioTheme/master/static/images/hugo-logo-wide.svg?sanitize=true"
+loading="lazy"
+>&lt;/p>
+&lt;h2 id="新见一个网站目录">新见一个网站目录
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">hugo new site blog
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="安装主题">安装主题
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git clone https://github.com/dillonzq/LoveIt.git themes/LoveIt
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="初始化子模块">初始化子模块
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git init
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git submodule add https://github.com/dillonzq/LoveIt.git themes/LoveIt
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="忽略public">忽略public
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">/public
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="复制编辑主题">复制编辑主题
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">cp themes/LoveIt/exampleSite/config.toml
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="创建你的第一篇文章">创建你的第一篇文章
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">hugo new posts/first_post.md
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="本地预览网站">本地预览网站
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">hugo serve
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="新建github库">新建GitHub库
+&lt;/h2>&lt;h2 id="上传github并">上传GitHub并
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git add -A
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git commit -m &amp;#34;网站搭建&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git push -u origin master
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item></channel></rss>
