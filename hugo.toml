@@ -1,14 +1,14 @@
 # 基本配置
-baseURL = "https://pzb.netlify.app"
+baseURL = "https://pzb666.netlify.app"
 title = "风轻云淡"
 theme = "stack"
 languageCode = "zh-cn"
 defaultContentLanguage = "zh-cn"
 enableEmoji = true
-enableGitInfo = true  # 启用 Git 信息以跟踪最后修改时间
-enableRobotsTXT = true  # 自动生成 robots.txt
-hasCJKLanguage = true  # 优化中文内容分词和渲染
-disableKinds = []  # 确保所有页面类型都启用
+enableGitInfo = true
+enableRobotsTXT = true
+hasCJKLanguage = true
+copyright = "彭宅波"
 
 # 网站参数
 [params]
@@ -16,29 +16,43 @@ disableKinds = []  # 确保所有页面类型都启用
   keywords = ["博客", "技术", "生活", "编程", "笔记"]
   favicon = "/images/favicon.ico"
   siteIcon = "/images/icon.png"
-  # 将 dateFormat 改为表格格式
   dateFormat = { published = "2006-01-02", lastUpdated = "2006-01-02 15:04" }
+  mainSections = ["post"]
+  featuredImageField = "image"
+  rssFullContent = true
 
   [params.author]
     name = "彭宅波"
     email = "pzb678@criptext.com"
 
   [params.social]
-    github = "penghub"
+    github = "pzb568"
     twitter = "penghub_cn"
+
+  [params.footer]
+    since = 2020
+    customText = ""
 
   [params.image]
     responsive = true
     optimize = true
     lazyLoading = true
-    quality = 85  # 图片压缩质量（1-100）
-    maxWidth = 1920  # 限制图片最大宽度以优化加载
+    quality = 85
+    maxWidth = 1920
+
+  [params.sidebar]
+    emoji = "🍥"
+    subtitle = "把人生的每一天当做生命的最后一秒"
+    [params.sidebar.avatar]
+      enabled = true
+      local = true
+      src = "img/avatar.png"
 
   [params.opengraph]
     title = "风轻云淡 - 彭宅波的博客"
     description = "记录技术与生活的点滴。"
     type = "website"
-    image = "/images/og-image.png"  # 添加默认分享图片
+    image = "/images/og-image.png"
     [params.opengraph.twitter]
       site = "@penghub_cn"
       creator = "@penghub_cn"
@@ -48,32 +62,124 @@ disableKinds = []  # 确保所有页面类型都启用
     enable = true
     indexOutput = "search-index.json"
     maxResults = 10
-    minLength = 2  # 搜索关键词最小长度
+    minLength = 2
 
   [params.schema]
-    type = "Person"  # 结构化数据类型
+    type = "Person"
     name = "彭宅波"
     description = "记录技术与生活的点滴。"
     sameAs = ["https://github.com/penghub", "https://twitter.com/penghub_cn"]
 
-# Markdown 渲染设置
+  [params.defaultImage]
+    [params.defaultImage.opengraph]
+      enabled = false
+      local = false
+      src = ""
+
+  [params.colorScheme]
+    toggle = true
+    default = "auto"
+
+  [params.imageProcessing]
+    [params.imageProcessing.cover]
+      enabled = true
+    [params.imageProcessing.content]
+      enabled = true
+
+  [params.article]
+    math = false
+    toc = true
+    readingTime = true
+    [params.article.license]
+      enabled = true
+      default = "Licensed under CC BY-NC-SA 4.0"
+
+  [params.comments]
+    enabled = false
+    provider = "disqus"
+    [params.comments.disqus]
+      shortname = ""
+    [params.comments.waline]
+      serverURL = ""
+      lang = ""
+      pageview = false
+      emoji = ["https://unpkg.com/@waline/emojis@1.0.1/weibo"]
+      requiredMeta = ["name", "email", "url"]
+      [params.comments.waline.locale]
+        admin = "Admin"
+        placeholder = ""
+    [params.comments.giscus]
+      repo = ""
+      repoID = ""
+      category = ""
+      categoryID = ""
+      mapping = ""
+      lightTheme = ""
+      darkTheme = ""
+      reactionsEnabled = 1
+      emitMetadata = 0
+
+  [[params.widgets.homepage]]
+    type = "search"
+  [[params.widgets.homepage]]
+    type = "archives"
+    [params.widgets.homepage.params]
+      limit = 5
+  [[params.widgets.homepage]]
+    type = "categories"
+    [params.widgets.homepage.params]
+      limit = 10
+  [[params.widgets.homepage]]
+    type = "tag-cloud"
+    [params.widgets.homepage.params]
+      limit = 10
+  [[params.widgets.page]]
+    type = "toc"
+
+# 第三方服务
+[services]
+  # [services.googleAnalytics]
+  #   id = ""
+  #   anonymizeIP = true
+  [services.disqus]
+    shortname = ""
+
+# 分页
+[pagination]
+  pagerSize = 3
+
+# 固定链接
+[permalinks]
+  posts = "/:year/:month/:slug/"
+  page = "/:slug/"
+
+# Markdown 渲染
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
-      unsafe = true  # 允许原始 HTML
+      unsafe = true
       hardWraps = true
       xHTML = false
     [markup.goldmark.extensions]
       typographer = true
       footnote = true
       definitionList = true
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [["\\[", "\\]"], ["$$", "$$"]]
+          inline = [["\\(", "\\)"]]
   [markup.highlight]
     codeFences = true
     guessSyntax = true
     lineNos = true
     lineNumbersInTable = true
     style = "monokai"
-    noClasses = false  # 启用 CSS 类以支持主题高亮
+    noClasses = false
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = true
+    startLevel = 2
 
 # 输出格式
 [outputFormats]
@@ -83,46 +189,54 @@ disableKinds = []  # 确保所有页面类型都启用
     isPlainText = true
     notAlternative = true
 
+# 菜单
+[menu]
+  [[menu.main]]
+    identifier = "Home"
+    name = "首页"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/page/archives/"
+    weight = 2
+  [[menu.main]]
+    identifier = "search"
+    name = "搜索"
+    url = "/page/search/"
+    weight = 3
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/page/about/"
+    weight = 4
+  [[menu.social]]
+    identifier = "github"
+    name = "GitHub"
+    url = "https://github.com/pzb568"
+    [menu.social.params]
+      icon = "brand-github"
+  [[menu.social]]
+    identifier = "twitter"
+    name = "Twitter"
+    url = "https://twitter.com/penghub_cn"
+    [menu.social.params]
+      icon = "brand-twitter"
 
-# 菜单配置
-[[menu.main]]
-  identifier = "Home"
-  name = "首页"
-  url = "/"
-  weight = 1
+# 相关文章推荐
+[related]
+  includeNewer = true
+  threshold = 60
+  toLower = false
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+  [[related.indices]]
+    name = "categories"
+    weight = 200
 
-[[menu.main]]
-  identifier = "archives"
-  name = "归档"
-  url = "/page/archives/"
-  weight = 2
-
-[[menu.main]]
-  identifier = "search"
-  name = "搜索"
-  url = "/page/search/"
-  weight = 3
-  
-[[menu.main]]
-  identifier = "about"
-  name = "关于"
-  url = "/page/about/"
-  weight = 4 
-
-
-
-
-# 服务配置（可选）
-[services]
-  # [services.googleAnalytics]
-  #   ID = "G-XXXXXXXXXX"
-  #   anonymizeIP = true
-
-# 固定链接
-[permalinks]
-  posts = "/:year/:month/:slug/"  # 使用 :slug 替代 :title 以支持中文 URL
-
-# 压缩设置
+# 压缩
 [minify]
   minifyOutput = true
   [minify.tdewolff]
@@ -135,12 +249,12 @@ disableKinds = []  # 确保所有页面类型都启用
     [minify.tdewolff.js]
       keepVarNames = true
 
-# 缓存设置
+# 缓存
 [cache]
   enabled = true
-  maxAge = 86400  # 1 天
+  maxAge = 86400
   [cache.assets]
-    maxAge = 604800  # 7 天
+    maxAge = 604800
   [cache.get]
     maxAge = 86400
 
@@ -155,8 +269,8 @@ disableKinds = []  # 确保所有页面类型都启用
   priority = 0.5
   filename = "sitemap.xml"
 
-# 模块配置
+# 模块
 [module]
   [module.hugoVersion]
     extended = true
-    min = "0.120.0"  # 更新到较新版本以支持最新功能
+    min = "0.120.0"
