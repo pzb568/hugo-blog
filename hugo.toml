@@ -150,7 +150,7 @@ copyright = "彭宅波"
 
 # 固定链接
 [permalinks]
-  posts = "/:year/:month/:slug/"
+  post = "/:year/:month/:slug/"
   page = "/:slug/"
 
 # Markdown 渲染
