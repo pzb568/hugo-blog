@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mosh on 风轻云淡</title><link>http://localhost:43401/tags/mosh/</link><description>Recent content in Mosh on 风轻云淡</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>pzb678@criptext.com (彭宅波)</managingEditor><webMaster>pzb678@criptext.com (彭宅波)</webMaster><lastBuildDate>Sat, 15 Jun 2019 23:47:44 +0800</lastBuildDate><atom:link href="http://localhost:43401/tags/mosh/index.xml" rel="self" type="application/rss+xml"/><item><title>Linux中优秀的命令工具</title><link>http://localhost:43401/2019/06/linux%E4%B8%AD%E4%BC%98%E7%A7%80%E7%9A%84%E5%91%BD%E4%BB%A4%E5%B7%A5%E5%85%B7/</link><pubDate>Sat, 15 Jun 2019 23:47:44 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2019/06/linux%E4%B8%AD%E4%BC%98%E7%A7%80%E7%9A%84%E5%91%BD%E4%BB%A4%E5%B7%A5%E5%85%B7/</guid><description>&lt;p>   Linux系统是非常强大的，期中有很多内置命令，随和用户的增加很多人自己贡献了很多优秀的工具，使我们可以更加方便捷的使用及工作。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mosh on 风轻云淡</title><link>http://localhost:1313/tags/mosh/</link><description>Recent content in Mosh on 风轻云淡</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>pzb678@criptext.com (彭宅波)</managingEditor><webMaster>pzb678@criptext.com (彭宅波)</webMaster><lastBuildDate>Sat, 15 Jun 2019 23:47:44 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/mosh/index.xml" rel="self" type="application/rss+xml"/><item><title>Linux中优秀的命令工具</title><link>http://localhost:1313/post/linux%E4%B8%AD%E4%BC%98%E7%A7%80%E7%9A%84%E5%91%BD%E4%BB%A4%E5%B7%A5%E5%85%B7/</link><pubDate>Sat, 15 Jun 2019 23:47:44 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:1313/post/linux%E4%B8%AD%E4%BC%98%E7%A7%80%E7%9A%84%E5%91%BD%E4%BB%A4%E5%B7%A5%E5%85%B7/</guid><description>&lt;p>   Linux系统是非常强大的，期中有很多内置命令，随和用户的增加很多人自己贡献了很多优秀的工具，使我们可以更加方便捷的使用及工作。&lt;/p>
 &lt;h1 id="exa">exa
 &lt;/h1>&lt;blockquote>
 &lt;p>exa是使用 &lt;a class="link" href="https://www.rust-lang.org/zh-CN/" target="_blank" rel="noopener"
@@ -214,7 +214,7 @@
 &lt;/div>
 &lt;/div>&lt;h2 id="2-使用-1">2. 使用
 &lt;/h2>&lt;p>演示&lt;/p>
-&lt;p>&lt;img src="http://localhost:43401/df.svg"
+&lt;p>&lt;img src="http://localhost:1313/df.svg"
 loading="lazy"
 >&lt;/p>
 &lt;embed src="df.svg" type="image/svg+xml" >

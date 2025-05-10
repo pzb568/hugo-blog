@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Termux on 风轻云淡</title><link>http://localhost:43401/tags/termux/</link><description>Recent content in Termux on 风轻云淡</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>pzb678@criptext.com (彭宅波)</managingEditor><webMaster>pzb678@criptext.com (彭宅波)</webMaster><lastBuildDate>Tue, 26 Feb 2019 20:26:22 +0800</lastBuildDate><atom:link href="http://localhost:43401/tags/termux/index.xml" rel="self" type="application/rss+xml"/><item><title>termux0.66版本修改添加常用按键</title><link>http://localhost:43401/2019/02/termux0.66%E7%89%88%E6%9C%AC%E4%BF%AE%E6%94%B9%E6%B7%BB%E5%8A%A0%E5%B8%B8%E7%94%A8%E6%8C%89%E9%94%AE/</link><pubDate>Tue, 26 Feb 2019 20:26:22 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2019/02/termux0.66%E7%89%88%E6%9C%AC%E4%BF%AE%E6%94%B9%E6%B7%BB%E5%8A%A0%E5%B8%B8%E7%94%A8%E6%8C%89%E9%94%AE/</guid><description>&lt;p>   termux0.66版本之后又改了快捷键，去掉了左右，home，更新后用的不习惯，并且不方便，可以修改并添加快捷键。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Termux on 风轻云淡</title><link>http://localhost:1313/tags/termux/</link><description>Recent content in Termux on 风轻云淡</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>pzb678@criptext.com (彭宅波)</managingEditor><webMaster>pzb678@criptext.com (彭宅波)</webMaster><lastBuildDate>Tue, 26 Feb 2019 20:26:22 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/termux/index.xml" rel="self" type="application/rss+xml"/><item><title>termux0.66版本修改添加常用按键</title><link>http://localhost:1313/post/termux0.66%E6%B7%BB%E5%8A%A0%E5%B8%B8%E7%94%A8%E6%8C%89%E9%94%AE/</link><pubDate>Tue, 26 Feb 2019 20:26:22 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:1313/post/termux0.66%E6%B7%BB%E5%8A%A0%E5%B8%B8%E7%94%A8%E6%8C%89%E9%94%AE/</guid><description>&lt;p>   termux0.66版本之后又改了快捷键，去掉了左右，home，更新后用的不习惯，并且不方便，可以修改并添加快捷键。&lt;/p>
 &lt;ol>
 &lt;li>创建.termux文件夹&lt;/li>
 &lt;/ol>
@@ -60,7 +60,7 @@ loading="lazy"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>显示效果如下&lt;br>
-&lt;img src = 'https://i.bmp.ovh/imgs/2019/04/1ad624dfdd20d41d.jpg' />&lt;/p></description></item><item><title>termux安装hugo搭建hugo博客部署到netlify</title><link>http://localhost:43401/2019/02/termux%E5%AE%89%E8%A3%85hugo%E6%90%AD%E5%BB%BAhugo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0netlify/</link><pubDate>Fri, 15 Feb 2019 13:58:14 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2019/02/termux%E5%AE%89%E8%A3%85hugo%E6%90%AD%E5%BB%BAhugo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0netlify/</guid><description>&lt;h1 id="termux安装hugo">termux安装hugo
+&lt;img src = 'https://i.bmp.ovh/imgs/2019/04/1ad624dfdd20d41d.jpg' />&lt;/p></description></item><item><title>termux安装hugo搭建hugo博客部署到netlify</title><link>http://localhost:1313/post/termux%E5%AE%89%E8%A3%85hugo%E6%90%AD%E5%BB%BAhugo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0netlify/</link><pubDate>Fri, 15 Feb 2019 13:58:14 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:1313/post/termux%E5%AE%89%E8%A3%85hugo%E6%90%AD%E5%BB%BAhugo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0netlify/</guid><description>&lt;h1 id="termux安装hugo">termux安装hugo
 &lt;/h1>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -329,7 +329,7 @@ loading="lazy"
 所有的配置都在setting下面&lt;/p>&lt;/blockquote>
 &lt;p>&lt;img src="https://i.bmp.ovh/imgs/2019/07/a1aad731f1137789.png"
 loading="lazy"
->&lt;/p></description></item><item><title>使用termux搭建wordpress网站</title><link>http://localhost:43401/2018/12/%E4%BD%BF%E7%94%A8termux%E6%90%AD%E5%BB%BAwordpress%E7%BD%91%E7%AB%99/</link><pubDate>Sat, 08 Dec 2018 17:03:19 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2018/12/%E4%BD%BF%E7%94%A8termux%E6%90%AD%E5%BB%BAwordpress%E7%BD%91%E7%AB%99/</guid><description>&lt;h1 id="wordpress介绍">wordpress介绍
+>&lt;/p></description></item><item><title>使用termux搭建wordpress网站</title><link>http://localhost:1313/post/%E4%BD%BF%E7%94%A8termux%E6%90%AD%E5%BB%BAwordpress%E7%BD%91%E7%AB%99/</link><pubDate>Sat, 08 Dec 2018 17:03:19 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:1313/post/%E4%BD%BF%E7%94%A8termux%E6%90%AD%E5%BB%BAwordpress%E7%BD%91%E7%AB%99/</guid><description>&lt;h1 id="wordpress介绍">wordpress介绍
 &lt;/h1>&lt;p>   WordPress 是一种使用 PHP 语言和 MySQL 数据库开发的开源、免费的 Blog（博客，网志）引擎，用户可以在支持 PHP，MySQL 数据库的服务器上建立自己的 Blog。&lt;/p>
 &lt;h2 id="lnmp方案">LNMP方案
 &lt;/h2>&lt;p>Linux nginx mysql php&lt;/p>
@@ -503,7 +503,7 @@ loading="lazy"
 &lt;/div>&lt;ol start="4">
 &lt;li>配置wp -config&lt;br>
 图下是设置需要修改数据库名用户名和密码&lt;br>
-&lt;img src="http://localhost:43401/01.jpg"
+&lt;img src="http://localhost:1313/01.jpg"
 loading="lazy"
 >&lt;/li>
 &lt;li>浏览器输入172.0.0.1:9000登录&lt;/li>
@@ -815,7 +815,7 @@ loading="lazy"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h1 id="进入安装界面-1">进入安装界面
-&lt;/h1>&lt;p>http://127.0.0.1:8080/wp-admin/setup-config.php&lt;/p></description></item><item><title>hexo博客的搭建与备份</title><link>http://localhost:43401/2018/11/hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%A4%87%E4%BB%BD/</link><pubDate>Sun, 11 Nov 2018 11:17:48 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2018/11/hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%A4%87%E4%BB%BD/</guid><description>&lt;h1 id="一搭建">一、搭建
+&lt;/h1>&lt;p>http://127.0.0.1:8080/wp-admin/setup-config.php&lt;/p></description></item><item><title>hexo博客的搭建与备份</title><link>http://localhost:1313/post/hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%A4%87%E4%BB%BD/</link><pubDate>Sun, 11 Nov 2018 11:17:48 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:1313/post/hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%A4%87%E4%BB%BD/</guid><description>&lt;h1 id="一搭建">一、搭建
 &lt;/h1>&lt;p>====&lt;br>
    Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。hexo 博客在Linux系统中搭建是非常简单的，在WIN系统中比较复杂，我们接触的手机📱永远要比电脑的时间要多那么我们可以在安卓手机上使用termux来搭建，这样随时随地都可以写做和发表文章。&lt;/p>
 &lt;h2 id="1-下载termux">1. 下载termux##
@@ -1290,7 +1290,7 @@ loading="lazy"
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">npm install hexo-tag-dplayer --save
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>搞定希望这个教程对你有所帮助。&lt;/p></description></item><item><title>termux安装使用you-get下载视频</title><link>http://localhost:43401/2018/11/termux%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8you-get%E4%B8%8B%E8%BD%BD%E8%A7%86%E9%A2%91/</link><pubDate>Sat, 10 Nov 2018 12:49:14 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2018/11/termux%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8you-get%E4%B8%8B%E8%BD%BD%E8%A7%86%E9%A2%91/</guid><description>&lt;h1 id="you-get简单介绍">You-Get简单介绍
+&lt;/div>&lt;p>搞定希望这个教程对你有所帮助。&lt;/p></description></item><item><title>termux安装使用you-get下载视频</title><link>http://localhost:1313/post/termux%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8you-get%E4%B8%8B%E8%BD%BD%E8%A7%86%E9%A2%91/</link><pubDate>Sat, 10 Nov 2018 12:49:14 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:1313/post/termux%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8you-get%E4%B8%8B%E8%BD%BD%E8%A7%86%E9%A2%91/</guid><description>&lt;h1 id="you-get简单介绍">You-Get简单介绍
 &lt;/h1>&lt;p>   &lt;a class="link" href="https://github.com/soimort/you-get/wiki/%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E" target="_blank" rel="noopener"
 >you-get&lt;/a>是一个基于 Python 3 的下载工具。使用 You-Get 可以很轻松的下载到网络上的视频、图片及音乐。&lt;/p>
 &lt;h1 id="一安裝">一、安裝
@@ -1370,7 +1370,7 @@ loading="lazy"
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">you-get -i http://m.iqiyi.com/v_19rrf2nw1g.html
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>&lt;img src="http://localhost:43401/01.jpg"
+&lt;/div>&lt;p>&lt;img src="http://localhost:1313/01.jpg"
 loading="lazy"
 >&lt;/p>
 &lt;p>&lt;strong>解析&lt;/strong>&lt;/p>
@@ -1382,7 +1382,7 @@ loading="lazy"
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">you-get -u http://m.iqiyi.com/v_19rrf2nw1g.html
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>&lt;img src="http://localhost:43401/02.jpg"
+&lt;/div>&lt;p>&lt;img src="http://localhost:1313/02.jpg"
 loading="lazy"
 >&lt;br>
 **下载 **&lt;/p>
@@ -1394,13 +1394,13 @@ loading="lazy"
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">you-get -o /sdcard/video/ http://m.iqiyi.com/v_19rrf2nw1g.html
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>&lt;img src="http://localhost:43401/03.jpg"
+&lt;/div>&lt;p>&lt;img src="http://localhost:1313/03.jpg"
 loading="lazy"
 >&lt;br>
 you-get的功能非常的多，如果你想了解you-get的所以使用方法可以去github &lt;a class="link" href="https://github.com/soimort/you-get/wiki/%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E" target="_blank" rel="noopener"
 >you-get&lt;/a> 项目里面查看，里面有详细使用方法，这里就简单的介绍到这里了。&lt;br>
 下面附一个网上简单的视频，有助于更快更简单的使用you-get。&lt;/p>
-&lt;iframe src="//player.bilibili.com/player.html?aid=24822266&amp;cid=41834559&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> &lt;/iframe></description></item><item><title>安卓手机利用termux搭建aria2下载服务</title><link>http://localhost:43401/2018/11/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%88%A9%E7%94%A8termux%E6%90%AD%E5%BB%BAaria2%E4%B8%8B%E8%BD%BD%E6%9C%8D%E5%8A%A1/</link><pubDate>Sat, 10 Nov 2018 12:28:33 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2018/11/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%88%A9%E7%94%A8termux%E6%90%AD%E5%BB%BAaria2%E4%B8%8B%E8%BD%BD%E6%9C%8D%E5%8A%A1/</guid><description>&lt;h1 id="aria2简介">aria2简介
+&lt;iframe src="//player.bilibili.com/player.html?aid=24822266&amp;cid=41834559&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> &lt;/iframe></description></item><item><title>安卓手机利用termux搭建aria2下载服务</title><link>http://localhost:1313/post/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%88%A9%E7%94%A8termux%E6%90%AD%E5%BB%BAaria2%E4%B8%8B%E8%BD%BD%E6%9C%8D%E5%8A%A1/</link><pubDate>Sat, 10 Nov 2018 12:28:33 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:1313/post/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%88%A9%E7%94%A8termux%E6%90%AD%E5%BB%BAaria2%E4%B8%8B%E8%BD%BD%E6%9C%8D%E5%8A%A1/</guid><description>&lt;h1 id="aria2简介">aria2简介
 &lt;/h1>&lt;p>   Aria2 是一个用于 Linux、Windows 和 Mac OSX 的轻量级、多协议和多源的命令行下载管理器/实用程序。它支持 HTTP/HTTPS、FTP、SFTP、BitTorrent 和 Metalink。aria2 可以通过内置的 JSON-RPC 和 XML-RPC 接口操作。它支持多线程，可以使用多个源或协议下载文件，确实可以加速并尽可能多的完成下载。它非常轻量级，不需要太多的内存和 CPU。我们可以使用它作为 BitTorrent 客户端，因为它有所有你想要的 BitTorrent 客户端的功能。&lt;br>
    我们可以很容易的在所有的 Linux 发行版上安装 aria2 命令行下载器，例如 Debian、 Ubuntu、 Mint、 RHEL、 CentOS、 Fedora、 suse、 openSUSE、 Arch Linux、 Manjaro、 Mageia 等等……只需要输入下面的命令安装即可。对于 CentOS、 RHEL 系统，我们需要开启 uget 或者 RPMForge 库的支持。&lt;/p>
 &lt;h2 id="aria2-安装">aria2 安装
@@ -1582,7 +1582,7 @@ you-get的功能非常的多，如果你想了解you-get的所以使用方法可
 打开浏览器地址栏输入&lt;br>
 127.0.0.1:8080&lt;br>
 &lt;escape>&lt;!-- more -->&lt;/escape>&lt;br>
-&lt;img src="http://localhost:43401/01.jpg"
+&lt;img src="http://localhost:1313/01.jpg"
 loading="lazy"
 >&lt;br>
 7. 下载BT种文文件需要设置BT服务器&lt;br>
@@ -1787,7 +1787,7 @@ loading="lazy"
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">aria2 -x16 -s 16 url
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>在termux安装archLinux</title><link>http://localhost:43401/2018/11/%E5%9C%A8termux%E5%AE%89%E8%A3%85archlinux/</link><pubDate>Fri, 09 Nov 2018 11:48:13 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2018/11/%E5%9C%A8termux%E5%AE%89%E8%A3%85archlinux/</guid><description>&lt;h1 id="termux安装archlinux">termux安装archLinux
+&lt;/div></description></item><item><title>在termux安装archLinux</title><link>http://localhost:1313/post/%E5%9C%A8termux%E5%AE%89%E8%A3%85archlinux/</link><pubDate>Fri, 09 Nov 2018 11:48:13 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:1313/post/%E5%9C%A8termux%E5%AE%89%E8%A3%85archlinux/</guid><description>&lt;h1 id="termux安装archlinux">termux安装archLinux
 &lt;/h1>&lt;h2 id="一下载">一、下载
 &lt;/h2>&lt;ol>
 &lt;li>git下载&lt;/li>
@@ -1903,7 +1903,7 @@ loading="lazy"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">pacman -S vim
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>学习程序开发的神器Jupyter notebook</title><link>http://localhost:43401/2018/11/%E5%AD%A6%E4%B9%A0%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E7%9A%84%E7%A5%9E%E5%99%A8jupyter-notebook/</link><pubDate>Fri, 09 Nov 2018 00:08:09 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2018/11/%E5%AD%A6%E4%B9%A0%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E7%9A%84%E7%A5%9E%E5%99%A8jupyter-notebook/</guid><description>&lt;h1 id="jupyter-notebook简介">Jupyter notebook简介
+&lt;/div></description></item><item><title>学习程序开发的神器Jupyter notebook</title><link>http://localhost:1313/post/%E5%AD%A6%E4%B9%A0%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E7%9A%84%E7%A5%9E%E5%99%A8jupyter/</link><pubDate>Fri, 09 Nov 2018 00:08:09 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:1313/post/%E5%AD%A6%E4%B9%A0%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E7%9A%84%E7%A5%9E%E5%99%A8jupyter/</guid><description>&lt;h1 id="jupyter-notebook简介">Jupyter notebook简介
 &lt;/h1>&lt;p>   Jupyter notebook（又称 IPython notebook），支持运行超过 40 种编程语言。Python 的一个强大的模块, 成功安装的话可以实现比caddy的效果, 支持web下的终端操作, 支持代码高亮运行。&lt;br>
 &lt;escape>&lt;!-- more -->&lt;/escape>&lt;/p>
 &lt;h1 id="jupyter-notebook安装">Jupyter notebook安装
@@ -1944,11 +1944,11 @@ loading="lazy"
 &lt;/div>
 &lt;/div>&lt;p>如下图&lt;br>
 复制最下面的网址到浏览器&lt;br>
-&lt;img src="http://localhost:43401/1.jpg"
+&lt;img src="http://localhost:1313/1.jpg"
 loading="lazy"
 >&lt;br>
 然后就可以开始尽情的玩耍了&lt;br>
-&lt;img src="http://localhost:43401/2.jpg"
+&lt;img src="http://localhost:1313/2.jpg"
 loading="lazy"
 >&lt;/p>
 &lt;h1 id="jupyter-notebook卸载">Jupyter notebook卸载

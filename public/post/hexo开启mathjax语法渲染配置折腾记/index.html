@@ -1,0 +1,103 @@
+<!doctype html><html lang=zh-cn dir=ltr><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><meta name=description content="Mathjax介绍 hexo默认的渲染器是marked，并不支持mathjax。kramed是在marked基础上修改的，支持了mathjax。在的hexo工程目录下的node_modules中可以找到对应的渲染器文件夹。同时在你的工程目录下用以下命令安装kramed。另外补充一个NexT配置中推荐的渲染器hexo-renderer-pandoc，功能很强大不仅可以渲染markdown，还支持textile、reStructedText等许多其他格式\n"><title>hexo开启Mathjax语法渲染配置折腾记</title>
+<link rel=canonical href=http://localhost:1313/post/hexo%E5%BC%80%E5%90%AFmathjax%E8%AF%AD%E6%B3%95%E6%B8%B2%E6%9F%93%E9%85%8D%E7%BD%AE%E6%8A%98%E8%85%BE%E8%AE%B0/><link rel=stylesheet href=/scss/style.min.d8c2dbbe609bf5c0a252a77e5fcc6485fcaaf225f7b815f5b2dc098125474612.css><meta property='og:title' content="hexo开启Mathjax语法渲染配置折腾记"><meta property='og:description' content="Mathjax介绍 hexo默认的渲染器是marked，并不支持mathjax。kramed是在marked基础上修改的，支持了mathjax。在的hexo工程目录下的node_modules中可以找到对应的渲染器文件夹。同时在你的工程目录下用以下命令安装kramed。另外补充一个NexT配置中推荐的渲染器hexo-renderer-pandoc，功能很强大不仅可以渲染markdown，还支持textile、reStructedText等许多其他格式\n"><meta property='og:url' content='http://localhost:1313/post/hexo%E5%BC%80%E5%90%AFmathjax%E8%AF%AD%E6%B3%95%E6%B8%B2%E6%9F%93%E9%85%8D%E7%BD%AE%E6%8A%98%E8%85%BE%E8%AE%B0/'><meta property='og:site_name' content='风轻云淡'><meta property='og:type' content='article'><meta property='article:section' content='Post'><meta property='article:tag' content='hexo配置'><meta property='article:tag' content='开启mathjax  Latex'><meta property='article:tag' content='数学公式'><meta property='article:tag' content='化学工式'><meta property='article:tag' content='主题样式'><meta property='article:published_time' content='2019-04-30T23:25:52+08:00'><meta property='article:modified_time' content='2019-04-30T23:25:52+08:00'><meta name=twitter:site content="@@penghub_cn"><meta name=twitter:creator content="@@penghub_cn"><meta name=twitter:title content="hexo开启Mathjax语法渲染配置折腾记"><meta name=twitter:description content="Mathjax介绍 hexo默认的渲染器是marked，并不支持mathjax。kramed是在marked基础上修改的，支持了mathjax。在的hexo工程目录下的node_modules中可以找到对应的渲染器文件夹。同时在你的工程目录下用以下命令安装kramed。另外补充一个NexT配置中推荐的渲染器hexo-renderer-pandoc，功能很强大不仅可以渲染markdown，还支持textile、reStructedText等许多其他格式\n"><link rel="shortcut icon" href=/images/favicon.ico></head><body class=article-page><script>(function(){const colorSchemeKey="StackColorScheme";localStorage.getItem(colorSchemeKey)||localStorage.setItem(colorSchemeKey,"auto")})()</script><script>(function(){const colorSchemeKey="StackColorScheme",colorSchemeItem=localStorage.getItem(colorSchemeKey),supportDarkMode=window.matchMedia("(prefers-color-scheme: dark)").matches===!0;colorSchemeItem=="dark"||colorSchemeItem==="auto"&&supportDarkMode?document.documentElement.dataset.scheme="dark":document.documentElement.dataset.scheme="light"})()</script><div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky"><button class="hamburger hamburger--spin" type=button id=toggle-menu aria-label=切换菜单>
+<span class=hamburger-box><span class=hamburger-inner></span></span></button><header><figure class=site-avatar><a href=/><img src=/img/avatar_hu_f509edb42ecc0ebd.png width=300 height=300 class=site-logo loading=lazy alt=Avatar></a></figure><div class=site-meta><h1 class=site-name><a href=/>风轻云淡</a></h1><h2 class=site-description></h2></div></header><ol class=menu id=main-menu><li><a href=/><span>首页</span></a></li><li><a href=/page/archives/><span>归档</span></a></li><li><a href=/page/search/><span>搜索</span></a></li><li><a href=/page/about/><span>关于</span></a></li><li class=menu-bottom-section><ol class=menu><li id=dark-mode-toggle><svg class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="8" cy="12" r="2"/><rect x="2" y="6" width="20" height="12" rx="6"/></svg>
+<svg class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="16" cy="12" r="2"/><rect x="2" y="6" width="20" height="12" rx="6"/></svg>
+<span>暗色模式</span></li></ol></li></ol></aside><main class="main full-width"><article class=main-article><header class=article-header><div class=article-details><header class=article-category><a href=/categories/%E8%BD%AF%E4%BB%B6%E5%BA%94%E7%94%A8/>软件应用</a></header><div class=article-title-wrapper><h2 class=article-title><a href=/post/hexo%E5%BC%80%E5%90%AFmathjax%E8%AF%AD%E6%B3%95%E6%B8%B2%E6%9F%93%E9%85%8D%E7%BD%AE%E6%8A%98%E8%85%BE%E8%AE%B0/>hexo开启Mathjax语法渲染配置折腾记</a></h2></div><footer class=article-time><div><svg class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg>
+<time class=article-time--published>2019-04-30</time></div><div><svg class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
+<time class=article-time--reading>阅读时长: 2 分钟</time></div></footer></div></header><section class=article-content><h1 id=mathjax介绍>Mathjax介绍</h1><p>   hexo默认的渲染器是marked，并不支持mathjax。kramed是在marked基础上修改的，支持了mathjax。在的hexo工程目录下的node_modules中可以找到对应的渲染器文件夹。同时在你的工程目录下用以下命令安装kramed。另外补充一个NexT配置中推荐的渲染器hexo-renderer-pandoc，功能很强大不仅可以渲染markdown，还支持textile、reStructedText等许多其他格式</p><h1 id=安装渲染器>安装渲染器</h1><h2 id=卸载默认渲染器>卸载默认渲染器</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>npm uninstall hexo-renderer-marked --save
+</span></span></code></pre></td></tr></table></div></div><h2 id=安装修改kramed渲染器>安装修改kramed渲染器</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>npm install hexo-renderer-kramed --save
+</span></span></code></pre></td></tr></table></div></div><p>或者<code>npm install hexo-renderer-pandoc --save</code>如果是在安卓手机termux里面部署网站这个插件不能使用，因为必装<code>pandoc</code>，termux安装pandoc不成功。</p><h1 id=安装hexo-renderer-mathjax插件>安装<strong>hexo-renderer-mathjax</strong>插件</h1><p>如果安装了hexo-math插件，需要卸载再安装。</p><h2 id=卸载hexo-math插件>卸载hexo-math插件</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>npm uninstall hexo-math --save
+</span></span></code></pre></td></tr></table></div></div><h2 id=安装>安装</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>npm install hexo-renderer-mathjax --save
+</span></span></code></pre></td></tr></table></div></div><h2 id=cdn加速>CDN加速</h2><blockquote><p>更新mathjax的CDN链接，打开node_modules/hexo-renderer-mathjax/mathjax.html</p></blockquote><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML&#34;&gt;&lt;/script&gt;
+</span></span></code></pre></td></tr></table></div></div><h1 id=主题配置>主题配置</h1><p>math:<br>enable: true #开启</p><p>engine: mathjax 取消注释</p><h1 id=文章front-matter中开启mathjax>文章Front-matter中开启mathjax</h1><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl>title: 
+</span></span><span class=line><span class=cl>category:
+</span></span><span class=line><span class=cl>date: 
+</span></span><span class=line><span class=cl>mathjax: true  #开启后才会渲染数学公式
+</span></span><span class=line><span class=cl>---
+</span></span></code></pre></td></tr></table></div></div><p><escape></escape></p><h1 id=测试>测试</h1><p>下面来测试一下</p><p>##麦克斯韦方程组</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span><span class=lnt>7
+</span><span class=lnt>8
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>$$
+</span></span><span class=line><span class=cl>\begin{eqnarray}
+</span></span><span class=line><span class=cl>\nabla\cdot\vec{E} &amp;=&amp; \frac{\rho}{\epsilon_0} \\
+</span></span><span class=line><span class=cl>\nabla\cdot\vec{B} &amp;=&amp; 0 \\
+</span></span><span class=line><span class=cl>\nabla\times\vec{E} &amp;=&amp; -\frac{\partial B}{\partial t} \\
+</span></span><span class=line><span class=cl>\nabla\times\vec{B} &amp;=&amp; \mu_0\left(\vec{J}+\epsilon_0\frac{\partial E}{\partial t} \right)
+</span></span><span class=line><span class=cl>\end{eqnarray}
+</span></span><span class=line><span class=cl>$$
+</span></span></code></pre></td></tr></table></div></div><p>$$<br>\begin{eqnarray}<br>\nabla\cdot\vec{E} &=& \frac{\rho}{\epsilon_0} \<br>\nabla\cdot\vec{B} &=& 0 \<br>\nabla\times\vec{E} &=& -\frac{\partial B}{\partial t} \<br>\nabla\times\vec{B} &=& \mu_0\left(\vec{J}+\epsilon_0\frac{\partial E}{\partial t} \right)<br>\end{eqnarray}<br>$$</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>$$\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.$$
+</span></span></code></pre></td></tr></table></div></div><p>$$\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt,.$$</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>$$
+</span></span><span class=line><span class=cl>\frac{\partial u}{\partial t} = h^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right)
+</span></span><span class=line><span class=cl>$$
+</span></span></code></pre></td></tr></table></div></div><p>$$<br>\frac{\partial u}{\partial t} = h^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right)<br>$$</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl> $$ 
+</span></span><span class=line><span class=cl>f(n)=\begin{cases}
+</span></span><span class=line><span class=cl>n/2, &amp; \text{如果$ x&lt;=2 $}\\
+</span></span><span class=line><span class=cl>3n+1, &amp; \text{如果$ x&gt;2 $}
+</span></span><span class=line><span class=cl>\end{cases}
+</span></span><span class=line><span class=cl>$$
+</span></span></code></pre></td></tr></table></div></div><p>$$<br>f(n)=\begin{cases}<br>n/2, & \text{如果$ x&lt;=2 $}\<br>3n+1, & \text{如果$ x>2 $}<br>\end{cases}<br>$$</p><h2 id=标题latex特性测试>标题Latex特性测试</h2><ol><li>Setext 形式</li></ol><hr><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>H1
+</span></span><span class=line><span class=cl>====
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>H2
+</span></span><span class=line><span class=cl>----
+</span></span></code></pre></td></tr></table></div></div><h1 id=h1>H1</h1><h2 id=h2>H2</h2><p>= 和 - 的数量是没有限制的。通常的做法是使其和标题文本的长度相同，这样看起来比较舒服。或者可以像我一样，用四个 - 或 =。<br>Setext 形式只支持 h1 和 h2 两种标题。</p><ol start=2><li>atx 形式<br>#####① 可以用对称的 # 包括文本：#####</li></ol><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>####H4####
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>#####H5#####
+</span></span></code></pre></td></tr></table></div></div><p>####H4####</p><p>#####H5#####</p><h5 id=-也可以只在左边使用->② 也可以只在左边使用 #：</h5><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>####H4
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>#####H5
+</span></span></code></pre></td></tr></table></div></div><p>####H4</p><p>#####H5</p><p>③ 成对的 # 左侧和只在左边使用的 # 左侧都不可以有任何空白，但其内侧可以使用空白。</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl> ###左侧使用了空格###
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>#### 内侧使用了空格
+</span></span></code></pre></td></tr></table></div></div><p>###左侧使用了空格###</p><h4 id=内侧使用了空格>内侧使用了空格</h4></section><footer class=article-footer><section class=article-tags><a href=/tags/hexo%E9%85%8D%E7%BD%AE/>Hexo配置</a>
+<a href=/tags/%E5%BC%80%E5%90%AFmathjax--latex/>开启mathjax Latex</a>
+<a href=/tags/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/>数学公式</a>
+<a href=/tags/%E5%8C%96%E5%AD%A6%E5%B7%A5%E5%BC%8F/>化学工式</a>
+<a href=/tags/%E4%B8%BB%E9%A2%98%E6%A0%B7%E5%BC%8F/>主题样式</a></section></footer></article><footer class=site-footer><section class=copyright>&copy;
+2025 风轻云淡</section><section class=powerby>使用 <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> 构建<br>主题 <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=3.30.0>Stack</a></b> 由 <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a> 设计</section></footer><div class=pswp tabindex=-1 role=dialog aria-hidden=true><div class=pswp__bg></div><div class=pswp__scroll-wrap><div class=pswp__container><div class=pswp__item></div><div class=pswp__item></div><div class=pswp__item></div></div><div class="pswp__ui pswp__ui--hidden"><div class=pswp__top-bar><div class=pswp__counter></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+<button class="pswp__button pswp__button--share" title=Share></button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button><div class=pswp__preloader><div class=pswp__preloader__icn><div class=pswp__preloader__cut><div class=pswp__preloader__donut></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class=pswp__share-tooltip></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+</button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button><div class=pswp__caption><div class=pswp__caption__center></div></div></div></div></div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css crossorigin=anonymous></main></div><script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z+KMkF24hUW8WePSA9HM=" crossorigin=anonymous></script><script src=/ts/main.ac707c990348bc4cb0fcd11ec08e356dfa209d8624c2f2d6a6352b02fd86f518.js defer></script><script>(function(){const customFont=document.createElement("link");customFont.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",customFont.type="text/css",customFont.rel="stylesheet",document.head.appendChild(customFont)})()</script></body></html>

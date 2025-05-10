@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hexo on 风轻云淡</title><link>http://localhost:43401/tags/hexo/</link><description>Recent content in Hexo on 风轻云淡</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>pzb678@criptext.com (彭宅波)</managingEditor><webMaster>pzb678@criptext.com (彭宅波)</webMaster><lastBuildDate>Fri, 09 Aug 2019 23:14:27 +0800</lastBuildDate><atom:link href="http://localhost:43401/tags/hexo/index.xml" rel="self" type="application/rss+xml"/><item><title>hexo网站permalink设置</title><link>http://localhost:43401/2019/08/hexo%E7%BD%91%E7%AB%99permalink%E8%AE%BE%E7%BD%AE/</link><pubDate>Fri, 09 Aug 2019 23:14:27 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2019/08/hexo%E7%BD%91%E7%AB%99permalink%E8%AE%BE%E7%BD%AE/</guid><description>&lt;p>   网站搭建差不多2年了，没有设置过永久链接，所有的文章都是中文的以至于网站地址特别长，不方便记忆，不美观。利用&lt;strong>hexo-abbrlink&lt;/strong>这个插件可以解决&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hexo on 风轻云淡</title><link>http://localhost:1313/tags/hexo/</link><description>Recent content in Hexo on 风轻云淡</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>pzb678@criptext.com (彭宅波)</managingEditor><webMaster>pzb678@criptext.com (彭宅波)</webMaster><lastBuildDate>Fri, 09 Aug 2019 23:14:27 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/hexo/index.xml" rel="self" type="application/rss+xml"/><item><title>hexo网站permalink设置</title><link>http://localhost:1313/post/hexo%E5%8D%9A%E5%AE%A2permalink%E8%AE%BE%E7%BD%AE/</link><pubDate>Fri, 09 Aug 2019 23:14:27 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:1313/post/hexo%E5%8D%9A%E5%AE%A2permalink%E8%AE%BE%E7%BD%AE/</guid><description>&lt;p>   网站搭建差不多2年了，没有设置过永久链接，所有的文章都是中文的以至于网站地址特别长，不方便记忆，不美观。利用&lt;strong>hexo-abbrlink&lt;/strong>这个插件可以解决&lt;/p>
 &lt;h1 id="安装hexo-abbrlink">安装hexo-abbrlink
 &lt;/h1>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -61,7 +61,7 @@
 &lt;a class="link" href="https://pzb568.github.io/2018/11/09/v2ray%E7%9A%84%E4%BD%BF%E7%94%A8%E4%B8%8E%E5%88%86%E4%BA%AB/" target="_blank" rel="noopener"
 >https://pzb568.github.io/2018/11/09/v2ray%E7%9A%84%E4%BD%BF%E7%94%A8%E4%B8%8E%E5%88%86%E4%BA%AB/&lt;/a>&lt;/p>
 &lt;blockquote>
-&lt;p>由于网站地址方式了变化，之前valine的数据地址不一样，所以所有的评论信息都会消失，请谨慎选择。&lt;/p>&lt;/blockquote></description></item><item><title>网页插入pdf文件</title><link>http://localhost:43401/2019/07/%E7%BD%91%E9%A1%B5%E6%8F%92%E5%85%A5pdf%E6%96%87%E4%BB%B6/</link><pubDate>Fri, 05 Jul 2019 03:15:12 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2019/07/%E7%BD%91%E9%A1%B5%E6%8F%92%E5%85%A5pdf%E6%96%87%E4%BB%B6/</guid><description>&lt;p>网页插入pdf文件&lt;br>
+&lt;p>由于网站地址方式了变化，之前valine的数据地址不一样，所以所有的评论信息都会消失，请谨慎选择。&lt;/p>&lt;/blockquote></description></item><item><title>网页插入pdf文件</title><link>http://localhost:1313/post/%E7%BD%91%E9%A1%B5%E6%8F%92%E5%85%A5pdf%E6%96%87%E4%BB%B6/</link><pubDate>Fri, 05 Jul 2019 03:15:12 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:1313/post/%E7%BD%91%E9%A1%B5%E6%8F%92%E5%85%A5pdf%E6%96%87%E4%BB%B6/</guid><description>&lt;p>网页插入pdf文件&lt;br>
 第一方法&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -92,7 +92,7 @@
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">{% pdf http://lc-0ww4yxjs.cn-n1.lcfile.com/510df791fa9b2590c109/Python%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B%EF%BC%88%E7%AC%AC3%E7%89%88%EF%BC%89.pdf %}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>&lt;escape>&lt;!-- more -->&lt;/escape>&lt;/p></description></item><item><title>hexo主题更新问题处理</title><link>http://localhost:43401/2019/07/hexo%E4%B8%BB%E9%A2%98%E6%9B%B4%E6%96%B0%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/</link><pubDate>Thu, 04 Jul 2019 19:56:20 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2019/07/hexo%E4%B8%BB%E9%A2%98%E6%9B%B4%E6%96%B0%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/</guid><description>&lt;p>   由于next主题经常更新，自己又在本地大量修改主题，更新中会有很多问题，经过很多次折腾及网络上其他朋友的教程，我找到了不错的处理方法。&lt;/p>
+&lt;/div>&lt;p>&lt;escape>&lt;!-- more -->&lt;/escape>&lt;/p></description></item><item><title>hexo主题更新问题处理</title><link>http://localhost:1313/post/hexo%E4%B8%BB%E9%A2%98%E6%9B%B4%E6%96%B0%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/</link><pubDate>Thu, 04 Jul 2019 19:56:20 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:1313/post/hexo%E4%B8%BB%E9%A2%98%E6%9B%B4%E6%96%B0%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86/</guid><description>&lt;p>   由于next主题经常更新，自己又在本地大量修改主题，更新中会有很多问题，经过很多次折腾及网络上其他朋友的教程，我找到了不错的处理方法。&lt;/p>
 &lt;ol>
 &lt;li>进入主题目录并更新&lt;/li>
 &lt;/ol>
@@ -181,7 +181,7 @@
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git pull
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>主题升级成功。&lt;/p></description></item><item><title>Markdown编辑器日常使用语法记录</title><link>http://localhost:43401/2019/05/markdown%E7%BC%96%E8%BE%91%E5%99%A8%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8%E8%AF%AD%E6%B3%95%E8%AE%B0%E5%BD%95/</link><pubDate>Wed, 29 May 2019 21:33:04 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2019/05/markdown%E7%BC%96%E8%BE%91%E5%99%A8%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8%E8%AF%AD%E6%B3%95%E8%AE%B0%E5%BD%95/</guid><description>&lt;p>   Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。&lt;br>
+&lt;/div>&lt;p>主题升级成功。&lt;/p></description></item><item><title>Markdown编辑器日常使用语法记录</title><link>http://localhost:1313/post/markdown%E7%BC%96%E8%BE%91%E5%99%A8%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8%E8%AF%AD%E6%B3%95%E8%AE%B0%E5%BD%95/</link><pubDate>Wed, 29 May 2019 21:33:04 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:1313/post/markdown%E7%BC%96%E8%BE%91%E5%99%A8%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8%E8%AF%AD%E6%B3%95%E8%AE%B0%E5%BD%95/</guid><description>&lt;p>   Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。&lt;br>
    hexo默认支持Markdown编辑文章，学习好Markdown 编辑器语法有利于更方便友好的写作;下面我会用一些事例分享Markdown 编辑器使用中的各种技巧。&lt;/p>
 &lt;h2 id="段首缩进">段首缩进
 &lt;/h2>&lt;blockquote>
@@ -385,16 +385,16 @@ loading="lazy"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>{% gp 4-4 %}&lt;br>
-&lt;img src="http://localhost:43401/photos/images/1.jpeg"
+&lt;img src="http://localhost:1313/photos/images/1.jpeg"
 loading="lazy"
 >&lt;br>
-&lt;img src="http://localhost:43401/photos/images/2.jpeg"
+&lt;img src="http://localhost:1313/photos/images/2.jpeg"
 loading="lazy"
 >&lt;br>
-&lt;img src="http://localhost:43401/photos/images/3.jpeg"
+&lt;img src="http://localhost:1313/photos/images/3.jpeg"
 loading="lazy"
 >&lt;br>
-&lt;img src="http://localhost:43401/photos/images/4.jpeg"
+&lt;img src="http://localhost:1313/photos/images/4.jpeg"
 loading="lazy"
 >&lt;br>
 {% endgp %}&lt;/p>
@@ -508,7 +508,7 @@ C &amp;ndash;&amp;gt;|Three| F[Car]&lt;br>
 &lt;h4 id="primary-header">Primary Header
 &lt;/h4>&lt;p>&lt;strong>Welcome&lt;/strong> to &lt;a class="link" href="https://hexo.io" target="_blank" rel="noopener"
 >Hexo!&lt;/a>&lt;br>
-{% endnote %}&lt;/p></description></item><item><title>hexo博客的搭建与备份</title><link>http://localhost:43401/2018/11/hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%A4%87%E4%BB%BD/</link><pubDate>Sun, 11 Nov 2018 11:17:48 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2018/11/hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%A4%87%E4%BB%BD/</guid><description>&lt;h1 id="一搭建">一、搭建
+{% endnote %}&lt;/p></description></item><item><title>hexo博客的搭建与备份</title><link>http://localhost:1313/post/hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%A4%87%E4%BB%BD/</link><pubDate>Sun, 11 Nov 2018 11:17:48 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:1313/post/hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%A4%87%E4%BB%BD/</guid><description>&lt;h1 id="一搭建">一、搭建
 &lt;/h1>&lt;p>====&lt;br>
    Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。hexo 博客在Linux系统中搭建是非常简单的，在WIN系统中比较复杂，我们接触的手机📱永远要比电脑的时间要多那么我们可以在安卓手机上使用termux来搭建，这样随时随地都可以写做和发表文章。&lt;/p>
 &lt;h2 id="1-下载termux">1. 下载termux##

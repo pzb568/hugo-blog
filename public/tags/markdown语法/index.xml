@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Markdown语法 on 风轻云淡</title><link>http://localhost:43401/tags/markdown%E8%AF%AD%E6%B3%95/</link><description>Recent content in Markdown语法 on 风轻云淡</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>pzb678@criptext.com (彭宅波)</managingEditor><webMaster>pzb678@criptext.com (彭宅波)</webMaster><lastBuildDate>Wed, 29 May 2019 21:33:04 +0800</lastBuildDate><atom:link href="http://localhost:43401/tags/markdown%E8%AF%AD%E6%B3%95/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown编辑器日常使用语法记录</title><link>http://localhost:43401/2019/05/markdown%E7%BC%96%E8%BE%91%E5%99%A8%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8%E8%AF%AD%E6%B3%95%E8%AE%B0%E5%BD%95/</link><pubDate>Wed, 29 May 2019 21:33:04 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2019/05/markdown%E7%BC%96%E8%BE%91%E5%99%A8%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8%E8%AF%AD%E6%B3%95%E8%AE%B0%E5%BD%95/</guid><description>&lt;p>   Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。&lt;br>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Markdown语法 on 风轻云淡</title><link>http://localhost:1313/tags/markdown%E8%AF%AD%E6%B3%95/</link><description>Recent content in Markdown语法 on 风轻云淡</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>pzb678@criptext.com (彭宅波)</managingEditor><webMaster>pzb678@criptext.com (彭宅波)</webMaster><lastBuildDate>Wed, 29 May 2019 21:33:04 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/markdown%E8%AF%AD%E6%B3%95/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown编辑器日常使用语法记录</title><link>http://localhost:1313/post/markdown%E7%BC%96%E8%BE%91%E5%99%A8%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8%E8%AF%AD%E6%B3%95%E8%AE%B0%E5%BD%95/</link><pubDate>Wed, 29 May 2019 21:33:04 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:1313/post/markdown%E7%BC%96%E8%BE%91%E5%99%A8%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8%E8%AF%AD%E6%B3%95%E8%AE%B0%E5%BD%95/</guid><description>&lt;p>   Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。&lt;br>
    hexo默认支持Markdown编辑文章，学习好Markdown 编辑器语法有利于更方便友好的写作;下面我会用一些事例分享Markdown 编辑器使用中的各种技巧。&lt;/p>
 &lt;h2 id="段首缩进">段首缩进
 &lt;/h2>&lt;blockquote>
@@ -202,16 +202,16 @@ loading="lazy"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>{% gp 4-4 %}&lt;br>
-&lt;img src="http://localhost:43401/photos/images/1.jpeg"
+&lt;img src="http://localhost:1313/photos/images/1.jpeg"
 loading="lazy"
 >&lt;br>
-&lt;img src="http://localhost:43401/photos/images/2.jpeg"
+&lt;img src="http://localhost:1313/photos/images/2.jpeg"
 loading="lazy"
 >&lt;br>
-&lt;img src="http://localhost:43401/photos/images/3.jpeg"
+&lt;img src="http://localhost:1313/photos/images/3.jpeg"
 loading="lazy"
 >&lt;br>
-&lt;img src="http://localhost:43401/photos/images/4.jpeg"
+&lt;img src="http://localhost:1313/photos/images/4.jpeg"
 loading="lazy"
 >&lt;br>
 {% endgp %}&lt;/p>

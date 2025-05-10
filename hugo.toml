@@ -83,14 +83,10 @@ disableKinds = []  # 确保所有页面类型都启用
     isPlainText = true
     notAlternative = true
 
-# 输出类型
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
-  page = ["HTML"]
 
 # 菜单配置
 [[menu.main]]
-  identifier = "home"
+  identifier = "Home"
   name = "首页"
   url = "/"
   weight = 1
@@ -98,20 +94,20 @@ disableKinds = []  # 确保所有页面类型都启用
 [[menu.main]]
   identifier = "archives"
   name = "归档"
-  url = "/archives/"
-  weight = 3
+  url = "/page/archives/"
+  weight = 2
 
 [[menu.main]]
   identifier = "search"
   name = "搜索"
-  url = "/search/"
-  weight = 4
+  url = "/page/search/"
+  weight = 3
   
 [[menu.main]]
   identifier = "about"
   name = "关于"
-  url = "/about/"
-  weight =5 
+  url = "/page/about/"
+  weight = 4 
 
 
 

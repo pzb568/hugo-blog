@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Php on 风轻云淡</title><link>http://localhost:43401/tags/php/</link><description>Recent content in Php on 风轻云淡</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>pzb678@criptext.com (彭宅波)</managingEditor><webMaster>pzb678@criptext.com (彭宅波)</webMaster><lastBuildDate>Sat, 08 Dec 2018 17:03:19 +0800</lastBuildDate><atom:link href="http://localhost:43401/tags/php/index.xml" rel="self" type="application/rss+xml"/><item><title>使用termux搭建wordpress网站</title><link>http://localhost:43401/2018/12/%E4%BD%BF%E7%94%A8termux%E6%90%AD%E5%BB%BAwordpress%E7%BD%91%E7%AB%99/</link><pubDate>Sat, 08 Dec 2018 17:03:19 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2018/12/%E4%BD%BF%E7%94%A8termux%E6%90%AD%E5%BB%BAwordpress%E7%BD%91%E7%AB%99/</guid><description>&lt;h1 id="wordpress介绍">wordpress介绍
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Php on 风轻云淡</title><link>http://localhost:1313/tags/php/</link><description>Recent content in Php on 风轻云淡</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>pzb678@criptext.com (彭宅波)</managingEditor><webMaster>pzb678@criptext.com (彭宅波)</webMaster><lastBuildDate>Sat, 08 Dec 2018 17:03:19 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/php/index.xml" rel="self" type="application/rss+xml"/><item><title>使用termux搭建wordpress网站</title><link>http://localhost:1313/post/%E4%BD%BF%E7%94%A8termux%E6%90%AD%E5%BB%BAwordpress%E7%BD%91%E7%AB%99/</link><pubDate>Sat, 08 Dec 2018 17:03:19 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:1313/post/%E4%BD%BF%E7%94%A8termux%E6%90%AD%E5%BB%BAwordpress%E7%BD%91%E7%AB%99/</guid><description>&lt;h1 id="wordpress介绍">wordpress介绍
 &lt;/h1>&lt;p>   WordPress 是一种使用 PHP 语言和 MySQL 数据库开发的开源、免费的 Blog（博客，网志）引擎，用户可以在支持 PHP，MySQL 数据库的服务器上建立自己的 Blog。&lt;/p>
 &lt;h2 id="lnmp方案">LNMP方案
 &lt;/h2>&lt;p>Linux nginx mysql php&lt;/p>
@@ -172,7 +172,7 @@
 &lt;/div>&lt;ol start="4">
 &lt;li>配置wp -config&lt;br>
 图下是设置需要修改数据库名用户名和密码&lt;br>
-&lt;img src="http://localhost:43401/01.jpg"
+&lt;img src="http://localhost:1313/01.jpg"
 loading="lazy"
 >&lt;/li>
 &lt;li>浏览器输入172.0.0.1:9000登录&lt;/li>

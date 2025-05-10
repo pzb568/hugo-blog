@@ -1,1 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on 风轻云淡</title><link>http://localhost:43401/page/</link><description>Recent content in Pages on 风轻云淡</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>pzb678@criptext.com (彭宅波)</managingEditor><webMaster>pzb678@criptext.com (彭宅波)</webMaster><atom:link href="http://localhost:43401/page/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on 风轻云淡</title><link>http://localhost:1313/page/</link><description>Recent content in Pages on 风轻云淡</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>pzb678@criptext.com (彭宅波)</managingEditor><webMaster>pzb678@criptext.com (彭宅波)</webMaster><atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml"/><item><title>Search</title><link>http://localhost:1313/page/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:1313/page/search/</guid><description/></item><item><title>关于</title><link>http://localhost:1313/page/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:1313/page/about/</guid><description>&lt;h2 id="关于我">关于我
+&lt;/h2>&lt;p>欢迎来到 &lt;strong>风轻云淡&lt;/strong>！我是 &lt;strong>彭宅波&lt;/strong>，一名热爱技术和生活的开发者。这里是我记录技术学习、项目经验和生活点滴的地方。&lt;/p>
+&lt;h3 id="我的兴趣">我的兴趣
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>编程&lt;/strong>：专注于 Web 开发、自动化脚本和开源项目。&lt;/li>
+&lt;li>&lt;strong>写作&lt;/strong>：分享技术教程和个人感悟。&lt;/li>
+&lt;li>&lt;strong>生活&lt;/strong>：旅行、摄影和阅读。&lt;/li>
+&lt;/ul>
+&lt;h3 id="联系方式">联系方式
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>邮箱&lt;/strong>：pzb678@criptext.com&lt;/li>
+&lt;li>&lt;strong>GitHub&lt;/strong>：&lt;a class="link" href="https://github.com/penghub" target="_blank" rel="noopener"
+>@penghub&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Twitter&lt;/strong>：&lt;a class="link" href="https://twitter.com/penghub_cn" target="_blank" rel="noopener"
+>@penghub_cn&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>感谢你的访问！期待与你交流和分享。&lt;/p></description></item><item><title>归档</title><link>http://localhost:1313/page/archives/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:1313/page/archives/</guid><description/></item></channel></rss>

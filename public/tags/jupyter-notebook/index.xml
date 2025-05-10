@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jupyter Notebook on 风轻云淡</title><link>http://localhost:43401/tags/jupyter-notebook/</link><description>Recent content in Jupyter Notebook on 风轻云淡</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>pzb678@criptext.com (彭宅波)</managingEditor><webMaster>pzb678@criptext.com (彭宅波)</webMaster><lastBuildDate>Fri, 09 Nov 2018 00:08:09 +0800</lastBuildDate><atom:link href="http://localhost:43401/tags/jupyter-notebook/index.xml" rel="self" type="application/rss+xml"/><item><title>学习程序开发的神器Jupyter notebook</title><link>http://localhost:43401/2018/11/%E5%AD%A6%E4%B9%A0%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E7%9A%84%E7%A5%9E%E5%99%A8jupyter-notebook/</link><pubDate>Fri, 09 Nov 2018 00:08:09 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:43401/2018/11/%E5%AD%A6%E4%B9%A0%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E7%9A%84%E7%A5%9E%E5%99%A8jupyter-notebook/</guid><description>&lt;h1 id="jupyter-notebook简介">Jupyter notebook简介
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jupyter Notebook on 风轻云淡</title><link>http://localhost:1313/tags/jupyter-notebook/</link><description>Recent content in Jupyter Notebook on 风轻云淡</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>pzb678@criptext.com (彭宅波)</managingEditor><webMaster>pzb678@criptext.com (彭宅波)</webMaster><lastBuildDate>Fri, 09 Nov 2018 00:08:09 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/jupyter-notebook/index.xml" rel="self" type="application/rss+xml"/><item><title>学习程序开发的神器Jupyter notebook</title><link>http://localhost:1313/post/%E5%AD%A6%E4%B9%A0%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E7%9A%84%E7%A5%9E%E5%99%A8jupyter/</link><pubDate>Fri, 09 Nov 2018 00:08:09 +0800</pubDate><author>pzb678@criptext.com (彭宅波)</author><guid>http://localhost:1313/post/%E5%AD%A6%E4%B9%A0%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E7%9A%84%E7%A5%9E%E5%99%A8jupyter/</guid><description>&lt;h1 id="jupyter-notebook简介">Jupyter notebook简介
 &lt;/h1>&lt;p>   Jupyter notebook（又称 IPython notebook），支持运行超过 40 种编程语言。Python 的一个强大的模块, 成功安装的话可以实现比caddy的效果, 支持web下的终端操作, 支持代码高亮运行。&lt;br>
 &lt;escape>&lt;!-- more -->&lt;/escape>&lt;/p>
 &lt;h1 id="jupyter-notebook安装">Jupyter notebook安装
@@ -39,11 +39,11 @@
 &lt;/div>
 &lt;/div>&lt;p>如下图&lt;br>
 复制最下面的网址到浏览器&lt;br>
-&lt;img src="http://localhost:43401/1.jpg"
+&lt;img src="http://localhost:1313/1.jpg"
 loading="lazy"
 >&lt;br>
 然后就可以开始尽情的玩耍了&lt;br>
-&lt;img src="http://localhost:43401/2.jpg"
+&lt;img src="http://localhost:1313/2.jpg"
 loading="lazy"
 >&lt;/p>
 &lt;h1 id="jupyter-notebook卸载">Jupyter notebook卸载
