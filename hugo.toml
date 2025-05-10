@@ -1,5 +1,5 @@
 # 基本配置
-baseURL = "https://pzb666.netlify.app"
+baseURL = "https://pzb.netlify.app"
 title = "风轻云淡"
 theme = "stack"
 languageCode = "zh-cn"
@@ -197,19 +197,19 @@ copyright = "彭宅波"
     url = "/"
     weight = 1
   [[menu.main]]
-    identifier = "archives"
+    identifier = "Archives"
     name = "归档"
-    url = "/page/archives/"
+    url = "/archives/"
     weight = 2
   [[menu.main]]
-    identifier = "search"
+    identifier = "Search"
     name = "搜索"
-    url = "/page/search/"
+    url = "/search/"
     weight = 3
   [[menu.main]]
-    identifier = "about"
+    identifier = "About"
     name = "关于"
-    url = "/page/about/"
+    url = "/about/"
     weight = 4
   [[menu.social]]
     identifier = "github"
