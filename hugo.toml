@@ -52,7 +52,7 @@ copyright = "彭宅波"
     title = "风轻云淡 - 彭宅波的博客"
     description = "记录技术与生活的点滴。"
     type = "website"
-    image = "/images/og-image.png"
+    image = "https://cdn.jsdelivr.net/gh/pzb568/blog_filescdn@1.1/logo.gif"
     [params.opengraph.twitter]
       site = "@penghub_cn"
       creator = "@penghub_cn"
