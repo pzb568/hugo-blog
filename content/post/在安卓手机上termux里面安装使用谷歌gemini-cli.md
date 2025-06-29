@@ -5,6 +5,12 @@ author: "彭宅波"
 tags: ["Termux", "Gemini", "CLI", "AI", "Android"]
 categories: ["技术教程"]
 description: "一篇详细的图文教程，指导你如何在安卓手机的Termux环境中安装、配置并使用谷歌官方的Gemini CLI工具，随时随地拥有强大的AI命令行助手。"
+image: ""
+math: false
+license: ""
+hidden: false
+comments: true
+draft: false
 ---
 
 ## 前言
