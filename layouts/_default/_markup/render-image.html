@@ -1,41 +1,47 @@
 {{- $image := .Page.Resources.GetMatch (printf "%s" (.Destination | safeURL)) -}}
 {{- $Permalink := .Destination | relURL | safeURL -}}
 {{- $alt := .PlainText | safeHTML -}}
-{{- $Width := 0 -}}
-{{- $Height := 0 -}}
-{{- $Srcset := "" -}}
 
-{{/* SVG and external images won't work with gallery layout, because their width and height attributes are unknown */}}
-{{- $galleryImage := false -}}
+{{- if not $image -}}
+    <img src="{{ $Permalink }}" alt="{{ $alt }}" loading="lazy">
+{{- else -}}
+    {{- $notSVG := ne (path.Ext .Destination) ".svg" -}}
+    {{- if not $notSVG -}}
+        <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}">
+    {{- else -}}
+        {{- $widths := slice 480 800 1200 -}}
+        {{- $srcsets := dict "avif" "" "webp" "" "jpeg" "" -}}
+        {{- $largestImage := "" -}}
 
-{{- if $image -}}
-	{{- $notSVG := ne (path.Ext .Destination) ".svg" -}}
-	{{- $Permalink = $image.RelPermalink -}}
+        {{- if (default true .Page.Site.Params.imageProcessing.content.enabled) -}}
+            {{- range $i, $width := $widths -}}
+                {{- $resized := $image.Resize (printf "%dx" $width) -}}
+                {{- $avif := $resized.Process "avif" -}}
+                {{- $webp := $resized.Process "webp" -}}
+                {{- $srcsets = merge $srcsets (dict "avif" (printf "%s %s %dw," ($srcsets.avif) ($avif.RelPermalink) $width)) -}}
+                {{- $srcsets = merge $srcsets (dict "webp" (printf "%s %s %dw," ($srcsets.webp) ($webp.RelPermalink) $width)) -}}
+                {{- $srcsets = merge $srcsets (dict "jpeg" (printf "%s %s %dw," ($srcsets.jpeg) ($resized.RelPermalink) $width)) -}}
+                {{- if eq $i (sub (len $widths) 1) -}}
+                    {{- $largestImage = $resized -}}
+                {{- end -}}
+            {{- end -}}
+        {{- end -}}
 
-	{{- if $notSVG -}}
-		{{- $Width = $image.Width -}}
-		{{- $Height = $image.Height -}}
-		{{- $galleryImage = true -}}
-
-		{{- if (default true .Page.Site.Params.imageProcessing.content.enabled) -}}
-			{{- $small := $image.Resize `480x` -}}
-			{{- $big := $image.Resize `1024x` -}}
-			{{- $Srcset = printf `%s 480w, %s 1024w` $small.RelPermalink $big.RelPermalink -}}
-		{{- end -}}
-	{{- end -}}
+        <picture>
+            <source type="image/avif" srcset="{{ substr ($srcsets.avif) 0 -1 }}" sizes="(max-width: 768px) 100vw, 768px">
+            <source type="image/webp" srcset="{{ substr ($srcsets.webp) 0 -1 }}" sizes="(max-width: 768px) 100vw, 768px">
+            <source type="image/jpeg" srcset="{{ substr ($srcsets.jpeg) 0 -1 }}" sizes="(max-width: 768px) 100vw, 768px">
+            <img src="{{ $largestImage.RelPermalink }}"
+                width="{{ $largestImage.Width }}"
+                height="{{ $largestImage.Height }}"
+                alt="{{ $alt }}"
+                loading="lazy"
+                class="gallery-image"
+                data-flex-grow="{{ div (mul $image.Width 100) $image.Height }}"
+                data-flex-basis="{{ div (mul $image.Width 240) $image.Height }}px">
+        </picture>
+        <noscript>
+            <img src="{{ $largestImage.RelPermalink }}" alt="{{ $alt }}">
+        </noscript>
+    {{- end -}}
 {{- end -}}
-
-<img src="{{ $Permalink }}"
-	{{ with $Width }}width="{{ . }}"{{ end }}
-	{{ with $Height }}height="{{ . }}"{{ end }}
-	{{ with $Srcset }}srcset="{{ . }}"{{ end }}
-	loading="lazy"
-	{{ with $alt }}
-		alt="{{ . }}"
-	{{ end }}
-	{{ if $galleryImage }}
-		class="gallery-image" 
-		data-flex-grow="{{ div (mul $image.Width 100) $image.Height }}"
-		data-flex-basis="{{ div (mul $image.Width 240) $image.Height }}px"
-	{{ end }}
->

@@ -3,7 +3,7 @@ publish = "public"
 command = "hugo --gc --minify"
 
 [build.environment]
-HUGO_VERSION = "0.147.2"  # 更新为最新版本
+HUGO_VERSION = "0.127.0"
 HUGO_ENV = "production"
 
 [context.production]
@@ -29,3 +29,32 @@ command = "hugo --gc --minify --enableGitInfo"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+# Headers for all pages
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # Set a liberal Content Security Policy
+    # This policy allows inline scripts and styles, which is common in Hugo.
+    # It also allows images, fonts, and scripts from self and from Netlify's CDN.
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://cdn.jsdelivr.net; font-src 'self';"
+    # Prevent clickjacking
+    X-Frame-Options = "DENY"
+    # Prevent MIME-type sniffing
+    X-Content-Type-Options = "nosniff"
+    # Control referrer information
+    Referrer-Policy = "no-referrer-when-downgrade"
+    # Enable Cross-Site Scripting (XSS) filter
+    X-XSS-Protection = "1; mode=block"
+
+# Cache policy for static assets
+[[headers]]
+  for = "/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Cache policy for images, fonts, and other media
+[[headers]]
+  for = "/(img|fonts|js|css)/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
