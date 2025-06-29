@@ -41,9 +41,13 @@ Gemini CLI 需要一个 API 密钥来进行身份验证。我们可以从 Google
 
 ## 安装步骤
 
-准备好 API 密钥后，我们就可以开始在 Termux 中安装 Gemini CLI 了。
+准备好 API 密钥后，我们就可以开始在 Termux 中安装 Gemini CLI 了。这里提供两种主流的安装方式，您可以根据自己的喜好选择其中一种。
 
-### 1. 更新 Termux 软件包
+### 方法一：通过 `npm` 包管理器安装 (推荐)
+
+这是最简单快捷的安装方式，推荐大多数用户使用。它利用 `npm` (Node.js 包管理器) 来安装一个社区维护的 Gemini CLI 客户端。
+
+#### 1. 更新 Termux 软件包
 
 首先，打开 Termux，运行以下命令更新已安装的软件包，确保环境最新。
 
@@ -51,7 +55,45 @@ Gemini CLI 需要一个 API 密钥来进行身份验证。我们可以从 Google
 pkg update && pkg upgrade -y
 ```
 
-### 2. 安装必要的依赖
+#### 2. 安装 Node.js
+
+`npm` 是 Node.js 的一部分，所以我们需要先安装 `nodejs`。
+
+```bash
+pkg install nodejs -y
+```
+
+#### 3. 使用 npm 安装 Gemini CLI
+
+现在，使用 `npm` 命令全局安装 Gemini CLI 工具。
+
+```bash
+npm install -g @google/generative-ai-cli
+```
+
+安装完成后，你可以通过运行以下命令来验证是否成功：
+
+```bash
+gemini -h
+```
+
+如果能看到一长串的帮助信息，说��� Gemini CLI 已经成功安装到你的 Termux 里了！
+
+---
+
+### 方法二：通过编译官方 Go 源码安装
+
+这种方法直接从谷歌官方的 GitHub 仓库获取源码进行编译，适合想体验原汁原味或对 Go 环境更熟悉的用户。
+
+#### 1. 更新 Termux 软件包
+
+首先，确保您的 Termux 软件包是最新版本。
+
+```bash
+pkg update && pkg upgrade -y
+```
+
+#### 2. 安装必要的依赖
 
 Gemini CLI 是用 Go 语言编写的，所以我们需要安装 `golang` 来编译它。同时，我们还需要 `git` 来从 GitHub 克隆项目源码。
 
@@ -59,9 +101,9 @@ Gemini CLI 是用 Go 语言编写的，所以我们需要安装 `golang` 来编�
 pkg install golang git -y
 ```
 
-### 3. 克隆并编译 Gemini CLI 源码
+#### 3. 克隆并编译 Gemini CLI 源码
 
-��下来，我们从 Gemini 的官方 GitHub 仓库克隆源码。
+接下来，我们从 Gemini 的官方 GitHub 仓库克隆源码。
 
 ```bash
 git clone https://github.com/google/generative-ai-go
@@ -81,7 +123,7 @@ go build .
 
 编译过程可能需要几分钟，请耐心等待。编译成功后，当前目录下会生成一个名为 `gemini` 的可执行文件。
 
-### 4. 将可执行文件移动到 `PATH`
+#### 4. 将可执行文件移动到 `PATH`
 
 为了能在任何路径下都方便地使用 `gemini` 命令，我们需要将这个文件移动到系统的 `PATH` 路径下。Termux 推荐的路径是 `$PREFIX/bin`。
 
@@ -95,7 +137,7 @@ mv gemini $PREFIX/bin/
 gemini -h
 ```
 
-如果能看到一长串的帮助信息，说明 Gemini CLI 已经成功安装到你的 Termux 里了！
+如果能看到一长串的帮助信息，说明 Gemini CLI 已经成功安装。
 
 ## 配置与使用
 
