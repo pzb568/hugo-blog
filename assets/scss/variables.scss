@@ -38,13 +38,14 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 
 /**
 *   Global font family
+*   Noto Serif SC is the Google Fonts version of 思源宋体.
 */
 :root {
     --sys-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Droid Sans", "Helvetica Neue";
-    --zh-font-family: "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei";
+    --zh-font-family: "Noto Serif SC", "Source Han Serif SC", "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei";
 
-    --base-font-family: "Lato", var(--sys-font-family), var(--zh-font-family), sans-serif;
-    --code-font-family: Menlo, Monaco, Consolas, "Courier New", var(--zh-font-family), monospace;
+    --base-font-family: "Noto Serif SC", var(--sys-font-family), var(--zh-font-family), serif;
+    --code-font-family: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 /*
@@ -91,14 +92,14 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 *   Article content font settings
 */
 :root {
-    --article-font-family: var(--base-font-family);
+    --article-font-family: "Noto Serif SC", var(--zh-font-family), serif;
     --article-font-size: 1.6rem;
 
     @include respond(md) {
         --article-font-size: 1.7rem;
     }
 
-    --article-line-height: 1.85;
+    --article-line-height: 1.9;
 }
 
 /*
