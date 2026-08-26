@@ -1,31 +1,31 @@
 [build]
 publish = "public"
-command = "hugo --gc --minify"
+command = "git submodule update --init themes/stack && git -C themes/stack fetch --depth=1 origin refs/tags/v4.0.3:refs/tags/v4.0.3 && git -C themes/stack checkout --detach v4.0.3 && hugo --gc --minify"
 
 [build.environment]
 HUGO_VERSION = "0.165.0"
 HUGO_ENV = "production"
 
 [context.production]
-command = "hugo --gc --minify --enableGitInfo -b https://pzb.netlify.app"
+command = "git submodule update --init themes/stack && git -C themes/stack fetch --depth=1 origin refs/tags/v4.0.3:refs/tags/v4.0.3 && git -C themes/stack checkout --detach v4.0.3 && hugo --gc --minify --enableGitInfo -b https://pzb.netlify.app"
 
 [context.production.environment]
 HUGO_ENABLEGITINFO = "true"
 
 [context.split1]
-command = "hugo --gc --minify --enableGitInfo"
+command = "git submodule update --init themes/stack && git -C themes/stack fetch --depth=1 origin refs/tags/v4.0.3:refs/tags/v4.0.3 && git -C themes/stack checkout --detach v4.0.3 && hugo --gc --minify --enableGitInfo"
 
 [context.split1.environment]
 HUGO_ENABLEGITINFO = "true"
 
 [context.deploy-preview]
-command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+command = "git submodule update --init themes/stack && git -C themes/stack fetch --depth=1 origin refs/tags/v4.0.3:refs/tags/v4.0.3 && git -C themes/stack checkout --detach v4.0.3 && hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
-command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+command = "git submodule update --init themes/stack && git -C themes/stack fetch --depth=1 origin refs/tags/v4.0.3:refs/tags/v4.0.3 && git -C themes/stack checkout --detach v4.0.3 && hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [context.next]
-command = "hugo --gc --minify --enableGitInfo"
+command = "git submodule update --init themes/stack && git -C themes/stack fetch --depth=1 origin refs/tags/v4.0.3:refs/tags/v4.0.3 && git -C themes/stack checkout --detach v4.0.3 && hugo --gc --minify --enableGitInfo"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
