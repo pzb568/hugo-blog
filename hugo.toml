@@ -2,7 +2,7 @@
 baseURL = "https://pzb.netlify.app"
 title = "风轻云淡"
 theme = "stack"
-languageCode = "zh-cn"
+languageCode = "zh-CN"
 defaultContentLanguage = "zh-cn"
 enableEmoji = true
 enableGitInfo = true
@@ -68,7 +68,7 @@ copyright = "彭宅波"
     type = "Person"
     name = "彭宅波"
     description = "记录技术与生活的点滴。"
-    sameAs = ["https://github.com/penghub", "https://twitter.com/penghub_cn"]
+    sameAs = ["https://github.com/pzb568", "https://twitter.com/penghub_cn"]
 
   [params.defaultImage]
     [params.defaultImage.opengraph]
@@ -249,19 +249,16 @@ copyright = "彭宅波"
     [minify.tdewolff.js]
       keepVarNames = true
 
-# 缓存
-[cache]
-  enabled = true
-  maxAge = 86400
-  [cache.assets]
-    maxAge = 604800
-  [cache.get]
-    maxAge = 86400
-
-# 内容缓存
-[content]
-  cache = true
-  maxAge = 86400
+# Hugo 资源缓存
+[caches]
+  [caches.getresource]
+    maxAge = "7d"
+  [caches.getjson]
+    maxAge = "1d"
+  [caches.getcsv]
+    maxAge = "1d"
+  [caches.images]
+    maxAge = "30d"
 
 # 站点地图
 [sitemap]
@@ -273,4 +270,4 @@ copyright = "彭宅波"
 [module]
   [module.hugoVersion]
     extended = true
-    min = "0.120.0"
+    min = "0.127.0"
