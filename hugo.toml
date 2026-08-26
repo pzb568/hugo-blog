@@ -249,18 +249,6 @@ copyright = "彭宅波"
     [minify.tdewolff.js]
       keepVarNames = true
 
-# Hugo 资源缓存
-# MaxAge 使用 Go duration 格式：7d 不是合法 duration，需写成 168h。
-[caches]
-  [caches.getresource]
-    maxAge = "168h"
-  [caches.getjson]
-    maxAge = "24h"
-  [caches.getcsv]
-    maxAge = "24h"
-  [caches.images]
-    maxAge = "720h"
-
 # 站点地图
 [sitemap]
   changefreq = "weekly"
