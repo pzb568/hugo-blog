@@ -3,7 +3,7 @@ publish = "public"
 command = "hugo --gc --minify"
 
 [build.environment]
-HUGO_VERSION = "0.127.0"
+HUGO_VERSION = "0.165.0"
 HUGO_ENV = "production"
 
 [context.production]
@@ -34,26 +34,14 @@ HUGO_ENABLEGITINFO = "true"
 [[headers]]
   for = "/*"
   [headers.values]
-    # Set a liberal Content Security Policy
-    # This policy allows inline scripts and styles, which is common in Hugo.
-    # It also allows images, fonts, and scripts from self and from Netlify's CDN.
-    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://cdn.jsdelivr.net; font-src 'self';"
-    # Prevent clickjacking
+    # Google Fonts: Noto Serif SC
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https://cdn.jsdelivr.net; font-src 'self' https://fonts.gstatic.com; connect-src 'self';"
     X-Frame-Options = "DENY"
-    # Prevent MIME-type sniffing
     X-Content-Type-Options = "nosniff"
-    # Control referrer information
-    Referrer-Policy = "no-referrer-when-downgrade"
-    # Enable Cross-Site Scripting (XSS) filter
-    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
 
-# Cache policy for static assets
-[[headers]]
-  for = "/static/*"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-# Cache policy for images, fonts, and other media
+# Cache policy for generated static assets
 [[headers]]
   for = "/(img|fonts|js|css)/*"
   [headers.values]
