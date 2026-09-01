@@ -18,7 +18,7 @@ copyright = "彭宅波"
   rssFullContent = true
   [params.author]
     name = "彭宅波"
-    email = "pzb678@criptext.com"
+    email = "pzb1268Gmail.com"
   [params.social]
     github = "pzb568"
     twitter = "penghub_cn"
@@ -31,7 +31,7 @@ copyright = "彭宅波"
     [params.sidebar.avatar]
       enabled = true
       local = true
-      src = "img/avatar.png"
+      src = "https://cdn.jsdelivr.net/gh/pzb568/blog_filescdn@0.1/logo.gif"
   [params.opengraph]
     title = "风轻云淡 - 彭宅波的博客"
     description = "记录技术与生活的点滴。"
